@@ -9,7 +9,7 @@ export const SearchInputContainer = styled.div`
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
-  margin: -6.25rem auto;
+  margin-top: -6.25rem;
   gap: 0.625rem;
   box-shadow: 0px 0px 70px rgba(63, 145, 148, 0.1);
   border-radius: 30px;
