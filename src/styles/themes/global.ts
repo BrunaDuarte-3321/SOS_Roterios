@@ -8,6 +8,6 @@ export const GlobalStyle = createGlobalStyle`
   }
 
   .container{
-    margin-left: 7.5rem;
+     max-width: calc(100% - 240px);
   }
 `
