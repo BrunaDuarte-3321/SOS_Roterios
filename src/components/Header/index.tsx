@@ -3,7 +3,7 @@ import { HeaderContainer, NavLinkContainer } from './styles.'
 
 export const Header = () => {
   return (
-    <HeaderContainer>
+    <HeaderContainer className="container">
       <img src={logo} alt="" />
       <NavLinkContainer>
         <a href="">Nossa proposta</a>
