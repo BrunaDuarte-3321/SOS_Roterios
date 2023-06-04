@@ -7,7 +7,17 @@ export const GlobalStyle = createGlobalStyle`
     box-sizing: border-box;
   }
 
+
+  body{
+    width: 100%;
+    height: 100vh;
+  }
+
+  input:focus {
+    outline: none !important;
+  }
+  
   .container{
-    margin-left: 7.5rem;
+     max-width: calc(100% - 240px);
   }
 `
