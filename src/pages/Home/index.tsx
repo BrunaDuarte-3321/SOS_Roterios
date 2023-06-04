@@ -1,5 +1,6 @@
 import { Banner } from '../../components/Banner'
 import { Header } from '../../components/Header'
+import { SearchInput } from '../../components/SearchInput'
 import { HomeContainer } from './styles'
 
 export const Home = () => {
@@ -7,6 +8,7 @@ export const Home = () => {
     <HomeContainer>
       <Header />
       <Banner />
+      <SearchInput />
     </HomeContainer>
   )
 }

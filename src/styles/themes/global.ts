@@ -13,6 +13,10 @@ export const GlobalStyle = createGlobalStyle`
     height: 100vh;
   }
 
+  input:focus {
+    outline: none !important;
+  }
+  
   .container{
      max-width: calc(100% - 240px);
   }
