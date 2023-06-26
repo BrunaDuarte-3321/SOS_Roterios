@@ -1,11 +1,16 @@
 import img from '../../../../assets/praia.svg'
-import { CardContainer, CardTravel, ScriptCardContainer } from './styles'
+import {
+  CardContainer,
+  CardTravel,
+  HeaderScriptCard,
+  ScriptCardContainer,
+} from './styles'
 import { Link } from 'react-router-dom'
 
 export const ScriptCard = () => {
   return (
-    <ScriptCardContainer className="container">
-      <h1>Recife</h1>
+    <ScriptCardContainer>
+      <HeaderScriptCard>Recife</HeaderScriptCard>
       <CardContainer>
         <Link to="/travelItinerary">
           <CardTravel>
