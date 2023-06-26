@@ -2,18 +2,28 @@ import styled from 'styled-components'
 
 export const ScriptCardContainer = styled.div`
   width: 100%;
+  max-width: calc(100% - 240px);
+  height: 36rem;
   margin-top: 5rem;
   margin-bottom: 5rem;
 
-  h1 {
-    margin-bottom: 1.875rem;
-  }
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+`
+
+export const HeaderScriptCard = styled.h1`
+  margin-bottom: 1.875rem;
 `
 export const CardContainer = styled.section`
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: repeat(3, 1fr);
   margin-bottom: 1.5rem;
   gap: 5rem;
+
+  a {
+    text-decoration: none;
+  }
 `
 export const CardTravel = styled.div`
   box-shadow: 0px 0px 70px rgba(63, 145, 148, 0.1);
