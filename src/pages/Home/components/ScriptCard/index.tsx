@@ -1,13 +1,15 @@
+import { Link } from 'react-router-dom'
+
 import img from '../../../../assets/praia.svg'
+
 import {
   CardContainer,
   CardTravel,
   HeaderScriptCard,
   ScriptCardContainer,
 } from './styles'
-import { Link } from 'react-router-dom'
 
-export const ScriptCard = () => {
+export function ScriptCard() {
   return (
     <ScriptCardContainer>
       <HeaderScriptCard>Recife</HeaderScriptCard>

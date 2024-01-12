@@ -1,6 +1,6 @@
 import { BannerContainer, BannerTitleContainer } from './styles'
 
-export const Banner = () => {
+export function Banner() {
   return (
     <BannerContainer>
       <BannerTitleContainer>

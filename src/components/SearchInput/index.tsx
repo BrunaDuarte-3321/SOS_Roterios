@@ -1,7 +1,8 @@
 import { CaretDown } from 'phosphor-react'
+
 import { SearchInputContainer } from './styles'
 
-export const SearchInput = () => {
+export function SearchInput() {
   return (
     <SearchInputContainer>
       <input type="text" placeholder="Selecione seu destino" />
