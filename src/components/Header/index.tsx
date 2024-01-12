@@ -10,7 +10,7 @@ export const Header = () => {
       </Link>
       <NavLinkContainer>
         <a href="">Nossa proposta</a>
-        <a href="">Cadastrar/Logar</a>
+        <Link to="/registerLogin">Cadastrar/Logar</Link>
       </NavLinkContainer>
     </HeaderContainer>
   )
