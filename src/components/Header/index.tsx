@@ -1,8 +1,10 @@
 import { Link } from 'react-router-dom'
+
 import logo from '../../assets/logosos.svg'
+
 import { HeaderContainer, NavLinkContainer } from './styles.'
 
-export const Header = () => {
+export function Header() {
   return (
     <HeaderContainer className="container">
       <Link to="/">

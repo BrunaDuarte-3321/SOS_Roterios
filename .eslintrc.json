@@ -28,6 +28,11 @@
   },
   "rules": {
     "prettier/prettier": "error",
+    "import/prefer-default-export": "off",
+    "semi": [
+      "error",
+      "never"
+    ],
     "react/jsx-filename-extension": [
       1,
       {

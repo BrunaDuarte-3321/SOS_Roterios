@@ -4,7 +4,7 @@ import {
   RegisterFormContainer,
 } from './styles'
 
-export const Register = () => {
+export function Register() {
   return (
     <RegisterContainer>
       <RegisterFormContainer className="container">
