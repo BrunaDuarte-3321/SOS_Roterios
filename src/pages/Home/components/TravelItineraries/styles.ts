@@ -32,6 +32,7 @@ export const ItineraryCard = styled.div`
   @media (max-width: 600px) {
     grid-template-columns: 1fr;
   }
+  margin-bottom: 5rem;
 `
 
 export const CardTravel = styled.div`
