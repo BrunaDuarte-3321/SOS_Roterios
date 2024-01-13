@@ -1,11 +1,13 @@
-import { BannerContainer, BannerTitleContainer } from './styles'
+import { IBanner } from '../../interfaces'
 
-export function Banner() {
+import { BannerContainer, BannerSloganContainer } from './styles'
+
+export function Banner({ slogan }: IBanner) {
   return (
     <BannerContainer>
-      <BannerTitleContainer>
-        <h1>Os melhores roteiros para você</h1>
-      </BannerTitleContainer>
+      <BannerSloganContainer>
+        <h1>{slogan}</h1>
+      </BannerSloganContainer>
     </BannerContainer>
   )
 }

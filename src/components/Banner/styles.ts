@@ -1,5 +1,6 @@
 import styled from 'styled-components'
-import bannerBackground from '../../assets/baneer.svg'
+
+import bannerBackground from '../../assets/banner.svg'
 
 export const BannerContainer = styled.div`
   display: flex;
@@ -11,9 +12,9 @@ export const BannerContainer = styled.div`
   background-size: cover;
 `
 
-export const BannerTitleContainer = styled.div`
-  width: 60rem;
-  height: 13.5rem;
+export const BannerSloganContainer = styled.div`
+  width: 100%;
+  max-width: 60rem;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -24,5 +25,19 @@ export const BannerTitleContainer = styled.div`
     font-weight: 600;
     line-height: 6.5rem;
     color: ${({ theme }) => theme.color.white};
+  }
+
+  @media (max-width: 800px) {
+    h1 {
+      font-size: 3rem;
+      line-height: 3.5rem;
+    }
+  }
+  @media (max-width: 600px) {
+    width: 95%;
+    h1 {
+      font-size: 3rem;
+      line-height: 3.5rem;
+    }
   }
 `

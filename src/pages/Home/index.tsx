@@ -1,13 +1,19 @@
-import { ScriptCard } from './components/ScriptCard'
+import { Banner } from '../../components/Banner'
+import { FormSearch } from '../../components/FormSearch'
+import { Header } from '../../components/Header'
 
-import { HomeContainer } from './styles'
+import { TravelItineraries } from './components/TravelItineraries'
+import { HomeContainer, HomeContent } from './styles'
 
-export const Home = () => {
+export function Home() {
   return (
     <HomeContainer>
-      <ScriptCard />
-      <ScriptCard />
-      <ScriptCard />
+      <Header />
+      <Banner slogan="Os melhores roteiros para você" />
+      <HomeContent>
+        <FormSearch />
+      </HomeContent>
+      <TravelItineraries />
     </HomeContainer>
   )
 }
