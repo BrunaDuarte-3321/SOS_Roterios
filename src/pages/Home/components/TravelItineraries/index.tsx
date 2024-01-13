@@ -7,6 +7,7 @@ export function TravelItineraries() {
   return (
     <TravelItinerariesContainer>
       <Itinerary
+        link="travelRoute"
         city="REcife"
         img={img}
         numberOfDay={3}

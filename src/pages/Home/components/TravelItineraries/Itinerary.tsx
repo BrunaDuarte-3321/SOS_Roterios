@@ -11,7 +11,13 @@ import {
   ItineraryHeader,
 } from './styles'
 
-export function Itinerary({ city, img, numberOfDay, description }: IItinerary) {
+export function Itinerary({
+  city,
+  img,
+  numberOfDay,
+  description,
+  link,
+}: IItinerary) {
   return (
     <ItineraryContainer className="container">
       <ItineraryHeader>
@@ -19,7 +25,7 @@ export function Itinerary({ city, img, numberOfDay, description }: IItinerary) {
       </ItineraryHeader>
       <ItineraryCard>
         <CardTravel>
-          <Link to="/">
+          <Link to={link}>
             <ImageTravel>
               <img src={img} alt="" />
               <CardTravelInfo>
@@ -30,7 +36,7 @@ export function Itinerary({ city, img, numberOfDay, description }: IItinerary) {
           </Link>
         </CardTravel>
         <CardTravel>
-          <Link to="/">
+          <Link to={link}>
             <ImageTravel>
               <img src={img} alt="" />
               <CardTravelInfo>
@@ -41,7 +47,7 @@ export function Itinerary({ city, img, numberOfDay, description }: IItinerary) {
           </Link>
         </CardTravel>
         <CardTravel>
-          <Link to="/">
+          <Link to={link}>
             <ImageTravel>
               <img src={img} alt="" />
               <CardTravelInfo>

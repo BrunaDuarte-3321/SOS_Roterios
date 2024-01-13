@@ -7,4 +7,5 @@ export interface IItinerary {
   img: string
   numberOfDay: number
   description: string
+  link: string
 }
