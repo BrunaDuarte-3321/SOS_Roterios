@@ -2,6 +2,7 @@ import styled from 'styled-components'
 
 export const HeaderContainer = styled.header`
   width: 100%;
+  height: 100vh;
   max-height: 8.25rem;
 
   display: flex;
@@ -9,8 +10,6 @@ export const HeaderContainer = styled.header`
   justify-content: center;
 `
 export const HeaderContent = styled.div`
-  background-color: red;
-
   width: 100%;
 
   display: flex;
