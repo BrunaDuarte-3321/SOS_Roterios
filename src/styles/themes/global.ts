@@ -16,8 +16,8 @@ export const GlobalStyle = createGlobalStyle`
   input:focus {
     outline: none !important;
   }
-  
+
   .container{
-     max-width: calc(100% - 240px);
+    max-width: calc(100% - 7.5rem);
   }
 `
