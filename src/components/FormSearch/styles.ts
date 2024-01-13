@@ -25,6 +25,9 @@ export const FormSearchContainer = styled.form`
   @media (max-width: 1000px) {
     width: 95%;
   }
+  @media (max-width: 700px) {
+    height: 14rem;
+  }
 `
 
 export const FormInputContent = styled.div`
@@ -72,6 +75,9 @@ export const FormInputContent = styled.div`
 
     input {
       width: 90%;
+    }
+    button {
+      width: 7rem;
     }
   }
 `
