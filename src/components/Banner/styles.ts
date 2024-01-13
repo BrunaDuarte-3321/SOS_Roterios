@@ -30,6 +30,7 @@ export const BannerSloganContainer = styled.div`
   @media (max-width: 800px) {
     h1 {
       font-size: 3rem;
+      line-height: 3.5rem;
     }
   }
   @media (max-width: 600px) {
