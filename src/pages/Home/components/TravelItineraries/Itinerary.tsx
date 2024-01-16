@@ -24,39 +24,19 @@ export function Itinerary({
         <h3>{city}</h3>
       </ItineraryHeader>
       <ItineraryCard>
-        <CardTravel>
-          <Link to={link}>
-            <ImageTravel>
-              <img src={img} alt="" />
-              <CardTravelInfo>
-                <h3>{numberOfDay} dias</h3>
-                <p>{description}</p>
-              </CardTravelInfo>
-            </ImageTravel>
-          </Link>
-        </CardTravel>
-        <CardTravel>
-          <Link to={link}>
-            <ImageTravel>
-              <img src={img} alt="" />
-              <CardTravelInfo>
-                <h3>{numberOfDay} dias</h3>
-                <p>{description}</p>
-              </CardTravelInfo>
-            </ImageTravel>
-          </Link>
-        </CardTravel>
-        <CardTravel>
-          <Link to={link}>
-            <ImageTravel>
-              <img src={img} alt="" />
-              <CardTravelInfo>
-                <h3>{numberOfDay} dias</h3>
-                <p>{description}</p>
-              </CardTravelInfo>
-            </ImageTravel>
-          </Link>
-        </CardTravel>
+        {img.map((item) => (
+          <CardTravel>
+            <Link to={link}>
+              <ImageTravel>
+                <img src={item} alt="" />
+                <CardTravelInfo>
+                  <h3>{numberOfDay} dias</h3>
+                  <p>{description}</p>
+                </CardTravelInfo>
+              </ImageTravel>
+            </Link>
+          </CardTravel>
+        ))}
       </ItineraryCard>
     </ItineraryContainer>
   )

@@ -9,14 +9,13 @@ export function TravelRoute() {
     <TravelRouteContainer>
       <TravelRouteContent className="container">
         <header>
-          <h2>Guia de Recife para 03 dias</h2>
+          <h2>{}</h2>
           <button type="submit">
             Roteiro completo
             <Download />
           </button>
         </header>
         <TravelRouteNavbar />
-        <TravelGuide />
         <TravelGuide />
       </TravelRouteContent>
     </TravelRouteContainer>

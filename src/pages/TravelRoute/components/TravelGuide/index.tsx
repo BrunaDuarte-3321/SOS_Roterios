@@ -11,6 +11,9 @@ import {
   TravelGuideImage,
 } from './styles'
 
+interface IProps {
+  teste: any[]
+}
 export function TravelGuide() {
   return (
     <TravelGuideContainer>

@@ -1,7 +1,77 @@
 {
   "cities": [
     {
+      "id": 1,
       "name": "Recife",
+      "images": [
+        "./src/assets/praia.svg",
+        "./src/assets/recife.svg",
+        "./src/assets/recife1.svg"
+      ],
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Minima sapiente maiores, reiciendis reprehenderit quae eveniet animi fugit perspiciatis eligendi.",
+
+      "itineraries": [
+        {
+          "days": 3,
+          "description": "Guia de Recife para 03 dias",
+          "itinerary": [
+            {
+              "day": 1,
+              "tours": [
+                {
+                  "id": 1,
+                  "title": "Praça Marco Zero",
+                  "description": "O Marco Zero, na Praça Rio Branco, é conhecido como local de fundação da cidade do Recife e também como ponto inicial de contagem das distâncias calculadas a partir da cidade. O lugar é um dos pontos mais importantes na capital Pernambucana, pois é também uma região de forte movimento durante o Carnaval. Aproveite sua visita para tirar uma foto com os dois marcos (o antigo e o novo), observar a vista para o Parque de Esculturas e os edifícios do Centro Cultural da Caixa e da Associação Comercial de Pernambuco. Se quiser fazer compras, vale a pena visitar o novo Mercado de Artesanato, que também fica no local.",
+
+                  "image": "./src/assets/recife5-1-1.png",
+                  "distance": "./src/assets/distance/distancia3min.svg"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Salvador",
+      "images": [
+        "./src/assets/salvador.svg",
+        "./src/assets/salvador1.svg",
+        "./src/assets/salvador3.svg"
+      ],
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Minima sapiente maiores, reiciendis reprehenderit quae eveniet animi fugit perspiciatis eligendi.",
+      "itineraries": [
+        {
+          "days": 3,
+          "description": "Guia de Recife para 03 dias",
+          "itinerary": [
+            {
+              "day": 1,
+              "tours": [
+                {
+                  "id": 1,
+                  "title": "Praça Marco Zero",
+                  "description": "O Marco Zero, na Praça Rio Branco, é conhecido como local de fundação da cidade do Recife e também como ponto inicial de contagem das distâncias calculadas a partir da cidade. O lugar é um dos pontos mais importantes na capital Pernambucana, pois é também uma região de forte movimento durante o Carnaval. Aproveite sua visita para tirar uma foto com os dois marcos (o antigo e o novo), observar a vista para o Parque de Esculturas e os edifícios do Centro Cultural da Caixa e da Associação Comercial de Pernambuco. Se quiser fazer compras, vale a pena visitar o novo Mercado de Artesanato, que também fica no local.",
+
+                  "image": "./src/assets/recife5-1-1.png",
+                  "distance": "./src/assets/distance/distancia3min.svg"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Fortaleza",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Minima sapiente maiores, reiciendis reprehenderit quae eveniet animi fugit perspiciatis eligendi.",
+      "images": [
+        "./src/assets/fortaleza.svg",
+        "./src/assets/fortaleza1.svg",
+        "./src/assets/fortaleza2.png"
+      ],
       "itineraries": [
         {
           "days": 3,
