@@ -2,14 +2,6 @@ export interface IBanner {
   slogan: string
 }
 
-export interface IItinerary {
-  city: string
-  img: string[]
-  numberOfDay: number
-  description: string
-  link: string
-}
-
 interface ITour {
   id: number
   title: string
@@ -34,9 +26,24 @@ export interface ICity {
   name: string
   images: string[]
   description: string
-  itineraries: {
-    id: number
-    name: string
-    itineraries: IItinerary1[]
-  }[]
+  itineraries: IItinerary1[]
+}
+
+export interface ICard {
+  id: number
+  quantity_days: number
+  description: string
+  image: string
+}
+
+export interface ITeste {
+  id: number
+  name: string
+  infoCard: ICard[]
+}
+
+export interface IItinerary {
+  city: string
+  infoCard: ICard[]
+  link: string
 }

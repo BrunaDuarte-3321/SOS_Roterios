@@ -27,8 +27,10 @@
     }
   },
   "rules": {
+    "tarrow-body-style": "off",
     "prettier/prettier": "error",
     "import/prefer-default-export": "off",
+    "camelcase": "off",
     "semi": [
       "error",
       "never"

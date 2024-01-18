@@ -1,30 +1,25 @@
-import { useEffect, useState } from 'react'
+import { useEffect } from 'react'
 
-import { ICity } from '../../interfaces'
-import { api } from '../../server/axios'
+import { travelStore } from '../../store/travelStore'
 
 import { TravelItineraries } from './components/TravelItineraries'
 import { HomeContainer } from './styles'
 
 export function Home() {
-  const [travel, setTravel] = useState<ICity[]>([])
+  const { travel, getCities } = travelStore((store) => ({
+    travel: store.travelGuide,
+    getCities: store.getCities,
+  }))
 
   useEffect(() => {
-    const getCities = async () => {
-      const teste = await api.get('/cities').then((data) => data)
-
-      if (teste) {
-        setTravel(teste.data)
-      }
-    }
     getCities()
   }, [])
 
-  console.log(travel)
+  console.log(travel, 'travel')
   return (
     <HomeContainer>
-      {travel.map((item) => (
-        <TravelItineraries key={item.id} teste={item} />
+      {travel!.map((item) => (
+        <TravelItineraries key={item.id} travel={item} />
       ))}
     </HomeContainer>
   )
