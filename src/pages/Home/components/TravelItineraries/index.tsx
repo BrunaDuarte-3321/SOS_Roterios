@@ -1,19 +1,18 @@
-import img from '../../../../assets/praia.svg'
+import { ITeste } from '../../../../interfaces'
 
 import { Itinerary } from './Itinerary'
 import { TravelItinerariesContainer } from './styles'
 
-export function TravelItineraries() {
+interface ITravelItineraries {
+  travel: ITeste
+}
+export function TravelItineraries({ travel }: ITravelItineraries) {
   return (
     <TravelItinerariesContainer>
       <Itinerary
         link="travelRoute"
-        city="REcife"
-        img={img}
-        numberOfDay={3}
-        description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima
-                sapiente maiores, reiciendis reprehenderit quae eveniet animi
-                fugit perspiciatis eligendi"
+        city={travel.name}
+        infoCard={travel.infoCard}
       />
     </TravelItinerariesContainer>
   )
