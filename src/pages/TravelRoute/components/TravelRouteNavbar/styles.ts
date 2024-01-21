@@ -7,9 +7,7 @@ export const TravelRouteNavbarContainer = styled.nav`
 
   flex-direction: row;
 
-  background-color: red;
-
-  a {
+  button {
     color: ${({ theme }) => theme.color.white};
     text-decoration: none;
     font-weight: 700;

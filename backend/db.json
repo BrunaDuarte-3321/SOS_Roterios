@@ -98,7 +98,6 @@
               "distance": "./src/assets/distance/distancia5min.svg",
               "duration": "3h30min",
               "address": "Endereço: Rua Bom Jesus, 183, Recife Antigo, Recife - PE"
-
             },
             {
               "id": 5,
@@ -116,84 +115,683 @@
           "tours": [
             {
               "id": 1,
-              "title": "Praça Marco Zero",
-              "description": "O Marco Zero, na Praça Rio Branco, é conhecido como local de fundação da cidade do Recife e também como ponto inicial de contagem das distâncias calculadas a partir da cidade. O lugar é um dos pontos mais importantes na capital Pernambucana, pois é também uma região de forte movimento durante o Carnaval. Aproveite sua visita para tirar uma foto com os dois marcos (o antigo e o novo), observar a vista para o Parque de Esculturas e os edifícios do Centro Cultural da Caixa e da Associação Comercial de Pernambuco. Se quiser fazer compras, vale a pena visitar o novo Mercado de Artesanato, que também fica no local.",
-              "image": "./src/assets/recife5-1-1.png",
-              "distance": "./src/assets/distance/distancia3min.svg"
+              "title": "Paço Alfândega",
+              "hours": "9:00",
+              "description": "O Paço Alfândega já foi convento e alfândega do Recife. Hoje em dia, é um dos shoppings mais charmosos da cidade. Seu interior conserva uma mistura de estrutura rústica e moderna, evocando as origens do edifício do século XVIII. Um lugar incrível para desfrutar de um café da manhã tranquilo.",
+
+              "image": "./src/assets/images/alfandega.png",
+              "distance": "./src/assets/distance/distancia8min.svg",
+              "duration": "2h",
+              "address": "Endereço: Rua da Alfândega, 35 , Recife Antigo, Recife - PE"
             },
             {
               "id": 2,
-              "title": "Paço do Frevo",
-              "description": "O Paço do Frevo é um centro de referência de ações, projetos e atividades de documentação, transmissão, salvaguarda e valorização de uma das principais tradições culturais brasileiras, reconhecida como Patrimônio Imaterial da Humanidade pela Unesco: o frevo. Localizado no Bairro do Recife, o Paço tem curadoria assinada por Bia Lessa. Além de se valer de conteúdos e linguagens diversas para manter vivo o ritmo que embalou a formação da identidade cultural recifense, o equipamento promove oficinas e apresentações musicais regulares em quatro pavimentos de atividades, oferecendo aos visitantes a possibilidade de experimentar o Carnaval recifense durante todo o ano.",
-              "image": "./src/assets/recife.svg",
-              "distance": "./src/assets/distance/distancia3min.svg"
+              "title": "Capela Dourada",
+              "hours": "11:00",
+              "description": "A Capela Dourada destaca-se como uma das igrejas mais impressionantes do Recife, simbolizando toda a riqueza do período colonial no Brasil. Erguida entre os séculos XVII e XVIII, a capela está situada no interior do Convento e Igreja de Santo Antônio, que também abriga um Museu de Arte Sacra.\n\nA riqueza desta capela reside nos detalhes em ouro; em cada canto, o brilho amarelo envolve as madeiras talhadas nas paredes, criando uma atmosfera deslumbrante. Imagens e pinturas sacras complementam o esplendor visual da capela, que impressiona não apenas pela quantidade exuberante de ouro em suas paredes, mas também pelo trabalho artesanal minucioso.\n\nA entrada para visitação está disponível por R$ 3.",
+              "image": "./src/assets/images/capela.png",
+              "distance": "./src/assets/distance/distancia10min.svg",
+              "duration": "1h",
+              "address": "Endereço: R. Imperador Dom Pedro II, Santo Antônio, Recife - PE"
             },
             {
               "id": 3,
-              "title": "Rua do Bom Jesus",
-              "description": "O Paço do Frevo é um centro de referência para ações, projetos e atividades de documentação, transmissão, salvaguarda e valorização de uma das principais tradições culturais brasileiras: o frevo, reconhecido como Patrimônio Imaterial da Humanidade pela Unesco. Este é um lugar para estudar, criar, experimentar e vivenciar o rico universo de histórias, personalidades, memórias e linguagens artísticas. Localizado no Bairro do Recife, o Paço, com curadoria assinada por Bia Lessa, utiliza diversos conteúdos e linguagens para manter viva a energia que embalou a formação da identidade cultural recifense. O espaço promove oficinas e apresentações musicais regulares em quatro pavimentos de atividades, oferecendo aos visitantes a oportunidade de experimentar o Carnaval recifense durante todo o ano.",
-              "image": "./src/assets/recife.svg",
-              "distance": "./src/assets/distance/distancia3min.svg"
+              "title": "Restaurante Leite",
+              "hours": "12:00",
+              "description": "Fundado em 1882, o Leite é o restaurante mais antigo do Recife, quiçá o mais antigo do Brasil. Seu ambiente é refinado, com luz baixa e um piano tocando músicas de qualidade como plano de fundo. É indicado especialmente para ocasiões especiais e refeições sofisticadas, embora o valor não seja muito acessível. Os garçons são extremamente atenciosos e vestem trajes brancos tradicionais há vários anos. A decoração passou por diversas mudanças ao longo dos anos, modernizando-se, mas mantendo a essência de servir pratos saborosos para uma clientela que busca uma refeição requintada.\n\nÉ um lugar para se visitar sem pressa, aproveitando a atmosfera única. O bacalhau e os camarões são escolhas acertadas, mas há também diversas outras opções.",
+
+              "image": "./src/assets/images/leite.png",
+              "distance": "./src/assets/distance/distancia10min.svg",
+              "duration": "2h",
+              "address": "Endereço: Praça Joaquim Nabuco, 147 , Santo Antônio, Recife - PE"
             },
             {
               "id": 4,
-              "title": "Embaixada dos Bonecos Gigantes",
-              "description": "Quem perdeu o Carnaval de Recife e Olinda e não conseguiu ver os bonecos gigantes em ação não precisa ficar triste! A Embaixada dos Bonecos Gigantes expõe os famosos bonecos criados para participar do Carnaval nas duas cidades, permitindo que os turistas tenham uma clara ideia da dimensão, da estrutura e do modo de criação dos personagens. Os bonecos pesados e bem trabalhados representam personalidades variadas, personagens de desenhos e figuras brasileiras que se destacam ao longo do ano. Adultos R$ 10,00 (Dez reais) | Criança (com até 12 anos) acompanhada por adulto pagante, entra sem pagar. Horário de Funcionamento: Segunda a Domingo das 08:00h às 18:00h. Abre nos feriados exceto: Carnaval (sábado até a terça), 25 de dezembro e 01 de janeiro.",
-              "image": "./src/assets/recife2.svg",
-              "distance": "./src/assets/distance/distancia3min.svg"
+              "title": "Mercado de São José",
+              "hours": "14:00",
+              "description": "O Mercado São José está localizado em uma região popular e movimentada. Se você está em busca de artesanato ou produtos pernambucanos, este local é uma das melhores opções na cidade. No mercado, você encontrará uma diversidade de itens, desde peixes e mariscos frescos até artigos em couro, ímãs, tecidos rendados, enfeites em madeira e lembranças da cidade, todos provenientes do artesanato local.\n\nA vantagem de visitar o Mercado São José é que ele reúne uma ampla variedade de lojas, proporcionando ao turista a oportunidade de encontrar de tudo no mesmo lugar. Ao redor do mercado, há muitas lojas populares e camelôs. Quem procura produtos com preços mais acessíveis pode explorar essa região.",
+
+              "image": "./src/assets/images/jose.png",
+              "distance": "./src/assets/distance/distancia11min.svg",
+              "duration": "1h30min",
+              "address": "Endereço: Praça Don Vital, s/nº, São José, Recife - PE"
             },
             {
               "id": 5,
-              "title": "Rua da Moeda",
-              "description": "A Rua da Moeda é uma das mais conhecidas do Recife Antigo, popular entre os jovens por aglomerar vários bares legais na mesma região. Para quem quer fazer um happy hour ou encontrar os amigos, os bares da rua são boas opções. O lugar também recebe apresentações musicais, inclusive nas prévias do Carnaval. Que tal finalizar o dia com drinks e petiscos locais?",
-              "image": "./src/assets/recife3.svg",
-              "distance": "./src/assets/distance/distancia3min.svg"
+              "title": "Casa da Cultura",
+              "hours": "17:00",
+              "description": "A Casa da Cultura ocupa o espaço de um antigo presídio recifense desativado há cerca de 40 anos, e hoje é um ponto turístico imperdível. Construído inicialmente com o princípio panóptico, o local passou por revitalização e agora abriga encantadoras lojinhas de artesanato e escritórios. É um ponto de parada fascinante para tirar fotos, apreciar a arquitetura e, acima de tudo, fazer algumas comprinhas. Você encontrará lojas que vendem uma variedade de produtos, como castanhas, tecidos, artigos de decoração e roupas.\n\nCada cela do presídio transformou-se em uma loja, proporcionando aos visitantes uma experiência única de compras. Para quem deseja ver como era uma cela original, uma cela vazia está preservada no raio leste. Outra dica é subir para o segundo andar do presídio pelo raio norte, onde há um ponto de observação que era utilizado para possíveis situações de emergência.",
+
+              "image": "./src/assets/images/cultura.png",
+              "distance": "./src/assets/distance/distancia15min.svg",
+              "duration": "1h30min",
+              "address": "Endereço: Praça Don Vital, s/nº, São José, Recife - PE"
+            },
+            {
+              "id": 6,
+              "title": "Passeio Noturno de Caramarã",
+              "hours": "19:00",
+              "description": "A Casa da Cultura ocupa o espaço de um antigo presídio recifense desativado há cerca de 40 anos, e hoje é um ponto turístico imperdível. Construído inicialmente com o princípio panóptico, o local passou por revitalização e agora abriga encantadoras lojinhas de artesanato e escritórios. É um ponto de parada fascinante para tirar fotos, apreciar a arquitetura e, acima de tudo, fazer algumas comprinhas. Você encontrará lojas que vendem uma variedade de produtos, como castanhas, tecidos, artigos de decoração e roupas.\n\nCada cela do presídio transformou-se em uma loja, proporcionando aos visitantes uma experiência única de compras. Para quem deseja ver como era uma cela original, uma cela vazia está preservada no raio leste. Outra dica é subir para o segundo andar do presídio pelo raio norte, onde há um ponto de observação que era utilizado para possíveis situações de emergência.",
+
+              "image": "./src/assets/images/barco.png",
+
+              "duration": "1h30min",
+              "address": "Endereço: Saída do Cais das Cinco Pontas, Recife - PE"
+            }
+          ]
+        },
+        {
+          "day": 3,
+          "tours": [
+            {
+              "id": 1,
+              "title": "Paço Alfândega",
+              "hours": "9:00",
+              "description": "O Paço Alfândega já foi convento e alfândega do Recife. Hoje em dia, é um dos shoppings mais charmosos da cidade. Seu interior conserva uma mistura de estrutura rústica e moderna, evocando as origens do edifício do século XVIII. Um lugar incrível para desfrutar de um café da manhã tranquilo.",
+
+              "image": "./src/assets/images/alfandega.png",
+              "distance": "./src/assets/distance/distancia8min.svg",
+              "duration": "2h",
+              "address": "Endereço: Rua da Alfândega, 35 , Recife Antigo, Recife - PE"
+            },
+            {
+              "id": 2,
+              "title": "Capela Dourada",
+              "hours": "11:00",
+              "description": "A Capela Dourada destaca-se como uma das igrejas mais impressionantes do Recife, simbolizando toda a riqueza do período colonial no Brasil. Erguida entre os séculos XVII e XVIII, a capela está situada no interior do Convento e Igreja de Santo Antônio, que também abriga um Museu de Arte Sacra.\n\nA riqueza desta capela reside nos detalhes em ouro; em cada canto, o brilho amarelo envolve as madeiras talhadas nas paredes, criando uma atmosfera deslumbrante. Imagens e pinturas sacras complementam o esplendor visual da capela, que impressiona não apenas pela quantidade exuberante de ouro em suas paredes, mas também pelo trabalho artesanal minucioso.\n\nA entrada para visitação está disponível por R$ 3.",
+              "image": "./src/assets/images/capela.png",
+              "distance": "./src/assets/distance/distancia10min.svg",
+              "duration": "1h",
+              "address": "Endereço: R. Imperador Dom Pedro II, Santo Antônio, Recife - PE"
+            },
+            {
+              "id": 3,
+              "title": "Restaurante Leite",
+              "hours": "12:00",
+              "description": "Fundado em 1882, o Leite é o restaurante mais antigo do Recife, quiçá o mais antigo do Brasil. Seu ambiente é refinado, com luz baixa e um piano tocando músicas de qualidade como plano de fundo. É indicado especialmente para ocasiões especiais e refeições sofisticadas, embora o valor não seja muito acessível. Os garçons são extremamente atenciosos e vestem trajes brancos tradicionais há vários anos. A decoração passou por diversas mudanças ao longo dos anos, modernizando-se, mas mantendo a essência de servir pratos saborosos para uma clientela que busca uma refeição requintada.\n\nÉ um lugar para se visitar sem pressa, aproveitando a atmosfera única. O bacalhau e os camarões são escolhas acertadas, mas há também diversas outras opções.",
+
+              "image": "./src/assets/images/leite.png",
+              "distance": "./src/assets/distance/distancia10min.svg",
+              "duration": "2h",
+              "address": "Endereço: Praça Joaquim Nabuco, 147 , Santo Antônio, Recife - PE"
+            },
+            {
+              "id": 4,
+              "title": "Mercado de São José",
+              "hours": "14:00",
+              "description": "O Mercado São José está localizado em uma região popular e movimentada. Se você está em busca de artesanato ou produtos pernambucanos, este local é uma das melhores opções na cidade. No mercado, você encontrará uma diversidade de itens, desde peixes e mariscos frescos até artigos em couro, ímãs, tecidos rendados, enfeites em madeira e lembranças da cidade, todos provenientes do artesanato local.\n\nA vantagem de visitar o Mercado São José é que ele reúne uma ampla variedade de lojas, proporcionando ao turista a oportunidade de encontrar de tudo no mesmo lugar. Ao redor do mercado, há muitas lojas populares e camelôs. Quem procura produtos com preços mais acessíveis pode explorar essa região.",
+
+              "image": "./src/assets/images/jose.png",
+              "distance": "./src/assets/distance/distancia11min.svg",
+              "duration": "1h30min",
+              "address": "Endereço: Praça Don Vital, s/nº, São José, Recife - PE"
+            },
+            {
+              "id": 5,
+              "title": "Casa da Cultura",
+              "hours": "17:00",
+              "description": "A Casa da Cultura ocupa o espaço de um antigo presídio recifense desativado há cerca de 40 anos, e hoje é um ponto turístico imperdível. Construído inicialmente com o princípio panóptico, o local passou por revitalização e agora abriga encantadoras lojinhas de artesanato e escritórios. É um ponto de parada fascinante para tirar fotos, apreciar a arquitetura e, acima de tudo, fazer algumas comprinhas. Você encontrará lojas que vendem uma variedade de produtos, como castanhas, tecidos, artigos de decoração e roupas.\n\nCada cela do presídio transformou-se em uma loja, proporcionando aos visitantes uma experiência única de compras. Para quem deseja ver como era uma cela original, uma cela vazia está preservada no raio leste. Outra dica é subir para o segundo andar do presídio pelo raio norte, onde há um ponto de observação que era utilizado para possíveis situações de emergência.",
+
+              "image": "./src/assets/images/cultura.png",
+              "distance": "./src/assets/distance/distancia15min.svg",
+              "duration": "1h30min",
+              "address": "Endereço: Praça Don Vital, s/nº, São José, Recife - PE"
+            },
+            {
+              "id": 6,
+              "title": "Passeio Noturno de Caramarã",
+              "hours": "19:00",
+              "description": "A Casa da Cultura ocupa o espaço de um antigo presídio recifense desativado há cerca de 40 anos, e hoje é um ponto turístico imperdível. Construído inicialmente com o princípio panóptico, o local passou por revitalização e agora abriga encantadoras lojinhas de artesanato e escritórios. É um ponto de parada fascinante para tirar fotos, apreciar a arquitetura e, acima de tudo, fazer algumas comprinhas. Você encontrará lojas que vendem uma variedade de produtos, como castanhas, tecidos, artigos de decoração e roupas.\n\nCada cela do presídio transformou-se em uma loja, proporcionando aos visitantes uma experiência única de compras. Para quem deseja ver como era uma cela original, uma cela vazia está preservada no raio leste. Outra dica é subir para o segundo andar do presídio pelo raio norte, onde há um ponto de observação que era utilizado para possíveis situações de emergência.",
+
+              "image": "./src/assets/images/barco.png",
+
+              "duration": "1h30min",
+              "address": "Endereço: Saída do Cais das Cinco Pontas, Recife - PE"
             }
           ]
         }
       ]
     },
+
     {
       "id": 1,
       "quantity_days": 5,
-      "description": "Guia de Recife para 03 dias",
+      "description": "Guia de Recife para 05 dias",
       "itinerary": [
         {
           "day": 1,
           "tours": [
             {
               "id": 1,
+              "hours": "9:00",
               "title": "Praça Marco Zero",
               "description": "O Marco Zero, na Praça Rio Branco, é conhecido como local de fundação da cidade do Recife e também como ponto inicial de contagem das distâncias calculadas a partir da cidade. O lugar é um dos pontos mais importantes na capital Pernambucana, pois é também uma região de forte movimento durante o Carnaval. Aproveite sua visita para tirar uma foto com os dois marcos (o antigo e o novo), observar a vista para o Parque de Esculturas e os edifícios do Centro Cultural da Caixa e da Associação Comercial de Pernambuco. Se quiser fazer compras, vale a pena visitar o novo Mercado de Artesanato, que também fica no local.",
-              "image": "./src/assets/recife5-1-1.png",
-              "distance": "./src/assets/distance/distancia3min.svg"
+              "image": "./src/assets/images/recife5-1-1.png",
+              "distance": "./src/assets/distance/distancia3min.svg",
+              "duration": "1h",
+              "address": "Endereço: Praça do Arsenal da Marinha, s/n, Recife Antigo, Recife - PE"
             },
             {
               "id": 2,
+              "hours": "10:00",
               "title": "Paço do Frevo",
               "description": "O Paço do Frevo é um centro de referência de ações, projetos e atividades de documentação, transmissão, salvaguarda e valorização de uma das principais tradições culturais brasileiras, reconhecida como Patrimônio Imaterial da Humanidade pela Unesco: o frevo. Localizado no Bairro do Recife, o Paço tem curadoria assinada por Bia Lessa. Além de se valer de conteúdos e linguagens diversas para manter vivo o ritmo que embalou a formação da identidade cultural recifense, o equipamento promove oficinas e apresentações musicais regulares em quatro pavimentos de atividades, oferecendo aos visitantes a possibilidade de experimentar o Carnaval recifense durante todo o ano.",
-              "image": "./src/assets/recife.svg",
-              "distance": "./src/assets/distance/distancia2min.svg"
+              "image": "./src/assets/images/frevo.png",
+              "distance": "./src/assets/distance/distancia2min.svg",
+              "duration": "1h",
+              "address": "Endereço: Praça do Arsenal da Marinha, s/n, Recife Antigo, Recife - PE"
             },
             {
               "id": 3,
               "title": "Rua do Bom Jesus",
-              "description": "O Paço do Frevo é um centro de referência para ações, projetos e atividades de documentação, transmissão, salvaguarda e valorização de uma das principais tradições culturais brasileiras: o frevo, reconhecido como Patrimônio Imaterial da Humanidade pela Unesco. Este é um lugar para estudar, criar, experimentar e vivenciar o rico universo de histórias, personalidades, memórias e linguagens artísticas. Localizado no Bairro do Recife, o Paço, com curadoria assinada por Bia Lessa, utiliza diversos conteúdos e linguagens para manter viva a energia que embalou a formação da identidade cultural recifense. O espaço promove oficinas e apresentações musicais regulares em quatro pavimentos de atividades, oferecendo aos visitantes a oportunidade de experimentar o Carnaval recifense durante todo o ano.",
-              "image": "./src/assets/recife.svg",
-              "distance": "./src/assets/distance/distancia5min.svg"
+              "hours": "11:00",
+              "description": "A Rua do Bom Jesus, antiga Rua dos Judeus, é uma das mais importantes do Recife. Ela é pequena, cheia de edifícios antigos e coloridos, entre eles um casarão onde foi construída uma das primeiras sinagogas das Américas. Aos domingos acontece uma feira de artesanato que torna a rua ainda mais interessante. Não é um shopping grande e com muita variedade de lojas; possui uma praça de alimentação pequena, mas se destaca pelo ambiente intimista e aconchegante. É um shopping legal para fazer a pausa do almoço.",
+
+              "image": "./src/assets/images/jesus.png",
+              "distance": "./src/assets/distance/distancia5min.svg",
+              "duration": "3h30min",
+              "address": "Endereço: Rua Bom Jesus, Recife Antigo, Recife - PE"
             },
             {
               "id": 4,
+              "hours": "15:00",
               "title": "Embaixada dos Bonecos Gigantes",
               "description": "Quem perdeu o Carnaval de Recife e Olinda e não conseguiu ver os bonecos gigantes em ação não precisa ficar triste! A Embaixada dos Bonecos Gigantes expõe os famosos bonecos criados para participar do Carnaval nas duas cidades, permitindo que os turistas tenham uma clara ideia da dimensão, da estrutura e do modo de criação dos personagens. Os bonecos pesados e bem trabalhados representam personalidades variadas, personagens de desenhos e figuras brasileiras que se destacam ao longo do ano. Adultos R$ 10,00 (Dez reais) | Criança (com até 12 anos) acompanhada por adulto pagante, entra sem pagar. Horário de Funcionamento: Segunda a Domingo das 08:00h às 18:00h. Abre nos feriados exceto: Carnaval (sábado até a terça), 25 de dezembro e 01 de janeiro.",
-              "image": "./src/assets/recife2.svg",
-              "distance": "./src/assets/distance/distancia3min.svg"
+              "image": "./src/assets/images/boneco.png",
+              "distance": "./src/assets/distance/distancia5min.svg",
+              "duration": "3h30min",
+              "address": "Endereço: Rua Bom Jesus, 183, Recife Antigo, Recife - PE"
             },
             {
               "id": 5,
               "title": "Rua da Moeda",
+              "hours": "16:00",
               "description": "A Rua da Moeda é uma das mais conhecidas do Recife Antigo, popular entre os jovens por aglomerar vários bares legais na mesma região. Para quem quer fazer um happy hour ou encontrar os amigos, os bares da rua são boas opções. O lugar também recebe apresentações musicais, inclusive nas prévias do Carnaval. Que tal finalizar o dia com drinks e petiscos locais?",
-              "image": "./src/assets/recife3.svg"
+              "image": "./src/assets/images/moeda.png",
+              "duration": "1h30min",
+              "address": "Endereço: Rua da Moeda, Recife Antigo, Recife - PE"
+            }
+          ]
+        },
+        {
+          "day": 2,
+          "tours": [
+            {
+              "id": 1,
+              "title": "Paço Alfândega",
+              "hours": "9:00",
+              "description": "O Paço Alfândega já foi convento e alfândega do Recife. Hoje em dia, é um dos shoppings mais charmosos da cidade. Seu interior conserva uma mistura de estrutura rústica e moderna, evocando as origens do edifício do século XVIII. Um lugar incrível para desfrutar de um café da manhã tranquilo.",
+
+              "image": "./src/assets/images/alfandega.png",
+              "distance": "./src/assets/distance/distancia8min.svg",
+              "duration": "2h",
+              "address": "Endereço: Rua da Alfândega, 35 , Recife Antigo, Recife - PE"
+            },
+            {
+              "id": 2,
+              "title": "Capela Dourada",
+              "hours": "11:00",
+              "description": "A Capela Dourada destaca-se como uma das igrejas mais impressionantes do Recife, simbolizando toda a riqueza do período colonial no Brasil. Erguida entre os séculos XVII e XVIII, a capela está situada no interior do Convento e Igreja de Santo Antônio, que também abriga um Museu de Arte Sacra.\n\nA riqueza desta capela reside nos detalhes em ouro; em cada canto, o brilho amarelo envolve as madeiras talhadas nas paredes, criando uma atmosfera deslumbrante. Imagens e pinturas sacras complementam o esplendor visual da capela, que impressiona não apenas pela quantidade exuberante de ouro em suas paredes, mas também pelo trabalho artesanal minucioso.\n\nA entrada para visitação está disponível por R$ 3.",
+              "image": "./src/assets/images/capela.png",
+              "distance": "./src/assets/distance/distancia10min.svg",
+              "duration": "1h",
+              "address": "Endereço: R. Imperador Dom Pedro II, Santo Antônio, Recife - PE"
+            },
+            {
+              "id": 3,
+              "title": "Restaurante Leite",
+              "hours": "12:00",
+              "description": "Fundado em 1882, o Leite é o restaurante mais antigo do Recife, quiçá o mais antigo do Brasil. Seu ambiente é refinado, com luz baixa e um piano tocando músicas de qualidade como plano de fundo. É indicado especialmente para ocasiões especiais e refeições sofisticadas, embora o valor não seja muito acessível. Os garçons são extremamente atenciosos e vestem trajes brancos tradicionais há vários anos. A decoração passou por diversas mudanças ao longo dos anos, modernizando-se, mas mantendo a essência de servir pratos saborosos para uma clientela que busca uma refeição requintada.\n\nÉ um lugar para se visitar sem pressa, aproveitando a atmosfera única. O bacalhau e os camarões são escolhas acertadas, mas há também diversas outras opções.",
+
+              "image": "./src/assets/images/leite.png",
+              "distance": "./src/assets/distance/distancia10min.svg",
+              "duration": "2h",
+              "address": "Endereço: Praça Joaquim Nabuco, 147 , Santo Antônio, Recife - PE"
+            },
+            {
+              "id": 4,
+              "title": "Mercado de São José",
+              "hours": "14:00",
+              "description": "O Mercado São José está localizado em uma região popular e movimentada. Se você está em busca de artesanato ou produtos pernambucanos, este local é uma das melhores opções na cidade. No mercado, você encontrará uma diversidade de itens, desde peixes e mariscos frescos até artigos em couro, ímãs, tecidos rendados, enfeites em madeira e lembranças da cidade, todos provenientes do artesanato local.\n\nA vantagem de visitar o Mercado São José é que ele reúne uma ampla variedade de lojas, proporcionando ao turista a oportunidade de encontrar de tudo no mesmo lugar. Ao redor do mercado, há muitas lojas populares e camelôs. Quem procura produtos com preços mais acessíveis pode explorar essa região.",
+
+              "image": "./src/assets/images/jose.png",
+              "distance": "./src/assets/distance/distancia11min.svg",
+              "duration": "1h30min",
+              "address": "Endereço: Praça Don Vital, s/nº, São José, Recife - PE"
+            },
+            {
+              "id": 5,
+              "title": "Casa da Cultura",
+              "hours": "17:00",
+              "description": "A Casa da Cultura ocupa o espaço de um antigo presídio recifense desativado há cerca de 40 anos, e hoje é um ponto turístico imperdível. Construído inicialmente com o princípio panóptico, o local passou por revitalização e agora abriga encantadoras lojinhas de artesanato e escritórios. É um ponto de parada fascinante para tirar fotos, apreciar a arquitetura e, acima de tudo, fazer algumas comprinhas. Você encontrará lojas que vendem uma variedade de produtos, como castanhas, tecidos, artigos de decoração e roupas.\n\nCada cela do presídio transformou-se em uma loja, proporcionando aos visitantes uma experiência única de compras. Para quem deseja ver como era uma cela original, uma cela vazia está preservada no raio leste. Outra dica é subir para o segundo andar do presídio pelo raio norte, onde há um ponto de observação que era utilizado para possíveis situações de emergência.",
+
+              "image": "./src/assets/images/cultura.png",
+              "distance": "./src/assets/distance/distancia15min.svg",
+              "duration": "1h30min",
+              "address": "Endereço: Praça Don Vital, s/nº, São José, Recife - PE"
+            },
+            {
+              "id": 6,
+              "title": "Passeio Noturno de Caramarã",
+              "hours": "19:00",
+              "description": "A Casa da Cultura ocupa o espaço de um antigo presídio recifense desativado há cerca de 40 anos, e hoje é um ponto turístico imperdível. Construído inicialmente com o princípio panóptico, o local passou por revitalização e agora abriga encantadoras lojinhas de artesanato e escritórios. É um ponto de parada fascinante para tirar fotos, apreciar a arquitetura e, acima de tudo, fazer algumas comprinhas. Você encontrará lojas que vendem uma variedade de produtos, como castanhas, tecidos, artigos de decoração e roupas.\n\nCada cela do presídio transformou-se em uma loja, proporcionando aos visitantes uma experiência única de compras. Para quem deseja ver como era uma cela original, uma cela vazia está preservada no raio leste. Outra dica é subir para o segundo andar do presídio pelo raio norte, onde há um ponto de observação que era utilizado para possíveis situações de emergência.",
+
+              "image": "./src/assets/images/barco.png",
+
+              "duration": "1h30min",
+              "address": "Endereço: Saída do Cais das Cinco Pontas, Recife - PE"
+            }
+          ]
+        },
+        {
+          "day": 3,
+          "tours": [
+            {
+              "id": 1,
+              "title": "Paço Alfândega",
+              "hours": "9:00",
+              "description": "O Paço Alfândega já foi convento e alfândega do Recife. Hoje em dia, é um dos shoppings mais charmosos da cidade. Seu interior conserva uma mistura de estrutura rústica e moderna, evocando as origens do edifício do século XVIII. Um lugar incrível para desfrutar de um café da manhã tranquilo.",
+
+              "image": "./src/assets/images/alfandega.png",
+              "distance": "./src/assets/distance/distancia8min.svg",
+              "duration": "2h",
+              "address": "Endereço: Rua da Alfândega, 35 , Recife Antigo, Recife - PE"
+            },
+            {
+              "id": 2,
+              "title": "Capela Dourada",
+              "hours": "11:00",
+              "description": "A Capela Dourada destaca-se como uma das igrejas mais impressionantes do Recife, simbolizando toda a riqueza do período colonial no Brasil. Erguida entre os séculos XVII e XVIII, a capela está situada no interior do Convento e Igreja de Santo Antônio, que também abriga um Museu de Arte Sacra.\n\nA riqueza desta capela reside nos detalhes em ouro; em cada canto, o brilho amarelo envolve as madeiras talhadas nas paredes, criando uma atmosfera deslumbrante. Imagens e pinturas sacras complementam o esplendor visual da capela, que impressiona não apenas pela quantidade exuberante de ouro em suas paredes, mas também pelo trabalho artesanal minucioso.\n\nA entrada para visitação está disponível por R$ 3.",
+              "image": "./src/assets/images/capela.png",
+              "distance": "./src/assets/distance/distancia10min.svg",
+              "duration": "1h",
+              "address": "Endereço: R. Imperador Dom Pedro II, Santo Antônio, Recife - PE"
+            },
+            {
+              "id": 3,
+              "title": "Restaurante Leite",
+              "hours": "12:00",
+              "description": "Fundado em 1882, o Leite é o restaurante mais antigo do Recife, quiçá o mais antigo do Brasil. Seu ambiente é refinado, com luz baixa e um piano tocando músicas de qualidade como plano de fundo. É indicado especialmente para ocasiões especiais e refeições sofisticadas, embora o valor não seja muito acessível. Os garçons são extremamente atenciosos e vestem trajes brancos tradicionais há vários anos. A decoração passou por diversas mudanças ao longo dos anos, modernizando-se, mas mantendo a essência de servir pratos saborosos para uma clientela que busca uma refeição requintada.\n\nÉ um lugar para se visitar sem pressa, aproveitando a atmosfera única. O bacalhau e os camarões são escolhas acertadas, mas há também diversas outras opções.",
+
+              "image": "./src/assets/images/leite.png",
+              "distance": "./src/assets/distance/distancia10min.svg",
+              "duration": "2h",
+              "address": "Endereço: Praça Joaquim Nabuco, 147 , Santo Antônio, Recife - PE"
+            },
+            {
+              "id": 4,
+              "title": "Mercado de São José",
+              "hours": "14:00",
+              "description": "O Mercado São José está localizado em uma região popular e movimentada. Se você está em busca de artesanato ou produtos pernambucanos, este local é uma das melhores opções na cidade. No mercado, você encontrará uma diversidade de itens, desde peixes e mariscos frescos até artigos em couro, ímãs, tecidos rendados, enfeites em madeira e lembranças da cidade, todos provenientes do artesanato local.\n\nA vantagem de visitar o Mercado São José é que ele reúne uma ampla variedade de lojas, proporcionando ao turista a oportunidade de encontrar de tudo no mesmo lugar. Ao redor do mercado, há muitas lojas populares e camelôs. Quem procura produtos com preços mais acessíveis pode explorar essa região.",
+
+              "image": "./src/assets/images/jose.png",
+              "distance": "./src/assets/distance/distancia11min.svg",
+              "duration": "1h30min",
+              "address": "Endereço: Praça Don Vital, s/nº, São José, Recife - PE"
+            },
+            {
+              "id": 5,
+              "title": "Casa da Cultura",
+              "hours": "17:00",
+              "description": "A Casa da Cultura ocupa o espaço de um antigo presídio recifense desativado há cerca de 40 anos, e hoje é um ponto turístico imperdível. Construído inicialmente com o princípio panóptico, o local passou por revitalização e agora abriga encantadoras lojinhas de artesanato e escritórios. É um ponto de parada fascinante para tirar fotos, apreciar a arquitetura e, acima de tudo, fazer algumas comprinhas. Você encontrará lojas que vendem uma variedade de produtos, como castanhas, tecidos, artigos de decoração e roupas.\n\nCada cela do presídio transformou-se em uma loja, proporcionando aos visitantes uma experiência única de compras. Para quem deseja ver como era uma cela original, uma cela vazia está preservada no raio leste. Outra dica é subir para o segundo andar do presídio pelo raio norte, onde há um ponto de observação que era utilizado para possíveis situações de emergência.",
+
+              "image": "./src/assets/images/cultura.png",
+              "distance": "./src/assets/distance/distancia15min.svg",
+              "duration": "1h30min",
+              "address": "Endereço: Praça Don Vital, s/nº, São José, Recife - PE"
+            },
+            {
+              "id": 6,
+              "title": "Passeio Noturno de Caramarã",
+              "hours": "19:00",
+              "description": "A Casa da Cultura ocupa o espaço de um antigo presídio recifense desativado há cerca de 40 anos, e hoje é um ponto turístico imperdível. Construído inicialmente com o princípio panóptico, o local passou por revitalização e agora abriga encantadoras lojinhas de artesanato e escritórios. É um ponto de parada fascinante para tirar fotos, apreciar a arquitetura e, acima de tudo, fazer algumas comprinhas. Você encontrará lojas que vendem uma variedade de produtos, como castanhas, tecidos, artigos de decoração e roupas.\n\nCada cela do presídio transformou-se em uma loja, proporcionando aos visitantes uma experiência única de compras. Para quem deseja ver como era uma cela original, uma cela vazia está preservada no raio leste. Outra dica é subir para o segundo andar do presídio pelo raio norte, onde há um ponto de observação que era utilizado para possíveis situações de emergência.",
+
+              "image": "./src/assets/images/barco.png",
+
+              "duration": "1h30min",
+              "address": "Endereço: Saída do Cais das Cinco Pontas, Recife - PE"
+            }
+          ]
+        },
+        {
+          "day": 4,
+          "tours": [
+            {
+              "id": 1,
+              "title": "Paço Alfândega",
+              "hours": "9:00",
+              "description": "O Paço Alfândega já foi convento e alfândega do Recife. Hoje em dia, é um dos shoppings mais charmosos da cidade. Seu interior conserva uma mistura de estrutura rústica e moderna, evocando as origens do edifício do século XVIII. Um lugar incrível para desfrutar de um café da manhã tranquilo.",
+
+              "image": "./src/assets/images/alfandega.png",
+              "distance": "./src/assets/distance/distancia8min.svg",
+              "duration": "2h",
+              "address": "Endereço: Rua da Alfândega, 35 , Recife Antigo, Recife - PE"
+            },
+            {
+              "id": 2,
+              "title": "Capela Dourada",
+              "hours": "11:00",
+              "description": "A Capela Dourada destaca-se como uma das igrejas mais impressionantes do Recife, simbolizando toda a riqueza do período colonial no Brasil. Erguida entre os séculos XVII e XVIII, a capela está situada no interior do Convento e Igreja de Santo Antônio, que também abriga um Museu de Arte Sacra.\n\nA riqueza desta capela reside nos detalhes em ouro; em cada canto, o brilho amarelo envolve as madeiras talhadas nas paredes, criando uma atmosfera deslumbrante. Imagens e pinturas sacras complementam o esplendor visual da capela, que impressiona não apenas pela quantidade exuberante de ouro em suas paredes, mas também pelo trabalho artesanal minucioso.\n\nA entrada para visitação está disponível por R$ 3.",
+              "image": "./src/assets/images/capela.png",
+              "distance": "./src/assets/distance/distancia10min.svg",
+              "duration": "1h",
+              "address": "Endereço: R. Imperador Dom Pedro II, Santo Antônio, Recife - PE"
+            },
+            {
+              "id": 3,
+              "title": "Restaurante Leite",
+              "hours": "12:00",
+              "description": "Fundado em 1882, o Leite é o restaurante mais antigo do Recife, quiçá o mais antigo do Brasil. Seu ambiente é refinado, com luz baixa e um piano tocando músicas de qualidade como plano de fundo. É indicado especialmente para ocasiões especiais e refeições sofisticadas, embora o valor não seja muito acessível. Os garçons são extremamente atenciosos e vestem trajes brancos tradicionais há vários anos. A decoração passou por diversas mudanças ao longo dos anos, modernizando-se, mas mantendo a essência de servir pratos saborosos para uma clientela que busca uma refeição requintada.\n\nÉ um lugar para se visitar sem pressa, aproveitando a atmosfera única. O bacalhau e os camarões são escolhas acertadas, mas há também diversas outras opções.",
+
+              "image": "./src/assets/images/leite.png",
+              "distance": "./src/assets/distance/distancia10min.svg",
+              "duration": "2h",
+              "address": "Endereço: Praça Joaquim Nabuco, 147 , Santo Antônio, Recife - PE"
+            },
+            {
+              "id": 4,
+              "title": "Mercado de São José",
+              "hours": "14:00",
+              "description": "O Mercado São José está localizado em uma região popular e movimentada. Se você está em busca de artesanato ou produtos pernambucanos, este local é uma das melhores opções na cidade. No mercado, você encontrará uma diversidade de itens, desde peixes e mariscos frescos até artigos em couro, ímãs, tecidos rendados, enfeites em madeira e lembranças da cidade, todos provenientes do artesanato local.\n\nA vantagem de visitar o Mercado São José é que ele reúne uma ampla variedade de lojas, proporcionando ao turista a oportunidade de encontrar de tudo no mesmo lugar. Ao redor do mercado, há muitas lojas populares e camelôs. Quem procura produtos com preços mais acessíveis pode explorar essa região.",
+
+              "image": "./src/assets/images/jose.png",
+              "distance": "./src/assets/distance/distancia11min.svg",
+              "duration": "1h30min",
+              "address": "Endereço: Praça Don Vital, s/nº, São José, Recife - PE"
+            },
+            {
+              "id": 5,
+              "title": "Casa da Cultura",
+              "hours": "17:00",
+              "description": "A Casa da Cultura ocupa o espaço de um antigo presídio recifense desativado há cerca de 40 anos, e hoje é um ponto turístico imperdível. Construído inicialmente com o princípio panóptico, o local passou por revitalização e agora abriga encantadoras lojinhas de artesanato e escritórios. É um ponto de parada fascinante para tirar fotos, apreciar a arquitetura e, acima de tudo, fazer algumas comprinhas. Você encontrará lojas que vendem uma variedade de produtos, como castanhas, tecidos, artigos de decoração e roupas.\n\nCada cela do presídio transformou-se em uma loja, proporcionando aos visitantes uma experiência única de compras. Para quem deseja ver como era uma cela original, uma cela vazia está preservada no raio leste. Outra dica é subir para o segundo andar do presídio pelo raio norte, onde há um ponto de observação que era utilizado para possíveis situações de emergência.",
+
+              "image": "./src/assets/images/cultura.png",
+              "distance": "./src/assets/distance/distancia15min.svg",
+              "duration": "1h30min",
+              "address": "Endereço: Praça Don Vital, s/nº, São José, Recife - PE"
+            },
+            {
+              "id": 6,
+              "title": "Passeio Noturno de Caramarã",
+              "hours": "19:00",
+              "description": "A Casa da Cultura ocupa o espaço de um antigo presídio recifense desativado há cerca de 40 anos, e hoje é um ponto turístico imperdível. Construído inicialmente com o princípio panóptico, o local passou por revitalização e agora abriga encantadoras lojinhas de artesanato e escritórios. É um ponto de parada fascinante para tirar fotos, apreciar a arquitetura e, acima de tudo, fazer algumas comprinhas. Você encontrará lojas que vendem uma variedade de produtos, como castanhas, tecidos, artigos de decoração e roupas.\n\nCada cela do presídio transformou-se em uma loja, proporcionando aos visitantes uma experiência única de compras. Para quem deseja ver como era uma cela original, uma cela vazia está preservada no raio leste. Outra dica é subir para o segundo andar do presídio pelo raio norte, onde há um ponto de observação que era utilizado para possíveis situações de emergência.",
+
+              "image": "./src/assets/images/barco.png",
+
+              "duration": "1h30min",
+              "address": "Endereço: Saída do Cais das Cinco Pontas, Recife - PE"
+            }
+          ]
+        },
+        {
+          "day": 5,
+          "tours": [
+            {
+              "id": 1,
+              "title": "Paço Alfândega",
+              "hours": "9:00",
+              "description": "O Paço Alfândega já foi convento e alfândega do Recife. Hoje em dia, é um dos shoppings mais charmosos da cidade. Seu interior conserva uma mistura de estrutura rústica e moderna, evocando as origens do edifício do século XVIII. Um lugar incrível para desfrutar de um café da manhã tranquilo.",
+
+              "image": "./src/assets/images/alfandega.png",
+              "distance": "./src/assets/distance/distancia8min.svg",
+              "duration": "2h",
+              "address": "Endereço: Rua da Alfândega, 35 , Recife Antigo, Recife - PE"
+            },
+            {
+              "id": 2,
+              "title": "Capela Dourada",
+              "hours": "11:00",
+              "description": "A Capela Dourada destaca-se como uma das igrejas mais impressionantes do Recife, simbolizando toda a riqueza do período colonial no Brasil. Erguida entre os séculos XVII e XVIII, a capela está situada no interior do Convento e Igreja de Santo Antônio, que também abriga um Museu de Arte Sacra.\n\nA riqueza desta capela reside nos detalhes em ouro; em cada canto, o brilho amarelo envolve as madeiras talhadas nas paredes, criando uma atmosfera deslumbrante. Imagens e pinturas sacras complementam o esplendor visual da capela, que impressiona não apenas pela quantidade exuberante de ouro em suas paredes, mas também pelo trabalho artesanal minucioso.\n\nA entrada para visitação está disponível por R$ 3.",
+              "image": "./src/assets/images/capela.png",
+              "distance": "./src/assets/distance/distancia10min.svg",
+              "duration": "1h",
+              "address": "Endereço: R. Imperador Dom Pedro II, Santo Antônio, Recife - PE"
+            },
+            {
+              "id": 3,
+              "title": "Restaurante Leite",
+              "hours": "12:00",
+              "description": "Fundado em 1882, o Leite é o restaurante mais antigo do Recife, quiçá o mais antigo do Brasil. Seu ambiente é refinado, com luz baixa e um piano tocando músicas de qualidade como plano de fundo. É indicado especialmente para ocasiões especiais e refeições sofisticadas, embora o valor não seja muito acessível. Os garçons são extremamente atenciosos e vestem trajes brancos tradicionais há vários anos. A decoração passou por diversas mudanças ao longo dos anos, modernizando-se, mas mantendo a essência de servir pratos saborosos para uma clientela que busca uma refeição requintada.\n\nÉ um lugar para se visitar sem pressa, aproveitando a atmosfera única. O bacalhau e os camarões são escolhas acertadas, mas há também diversas outras opções.",
+
+              "image": "./src/assets/images/leite.png",
+              "distance": "./src/assets/distance/distancia10min.svg",
+              "duration": "2h",
+              "address": "Endereço: Praça Joaquim Nabuco, 147 , Santo Antônio, Recife - PE"
+            },
+            {
+              "id": 4,
+              "title": "Mercado de São José",
+              "hours": "14:00",
+              "description": "O Mercado São José está localizado em uma região popular e movimentada. Se você está em busca de artesanato ou produtos pernambucanos, este local é uma das melhores opções na cidade. No mercado, você encontrará uma diversidade de itens, desde peixes e mariscos frescos até artigos em couro, ímãs, tecidos rendados, enfeites em madeira e lembranças da cidade, todos provenientes do artesanato local.\n\nA vantagem de visitar o Mercado São José é que ele reúne uma ampla variedade de lojas, proporcionando ao turista a oportunidade de encontrar de tudo no mesmo lugar. Ao redor do mercado, há muitas lojas populares e camelôs. Quem procura produtos com preços mais acessíveis pode explorar essa região.",
+
+              "image": "./src/assets/images/jose.png",
+              "distance": "./src/assets/distance/distancia11min.svg",
+              "duration": "1h30min",
+              "address": "Endereço: Praça Don Vital, s/nº, São José, Recife - PE"
+            },
+            {
+              "id": 5,
+              "title": "Casa da Cultura",
+              "hours": "17:00",
+              "description": "A Casa da Cultura ocupa o espaço de um antigo presídio recifense desativado há cerca de 40 anos, e hoje é um ponto turístico imperdível. Construído inicialmente com o princípio panóptico, o local passou por revitalização e agora abriga encantadoras lojinhas de artesanato e escritórios. É um ponto de parada fascinante para tirar fotos, apreciar a arquitetura e, acima de tudo, fazer algumas comprinhas. Você encontrará lojas que vendem uma variedade de produtos, como castanhas, tecidos, artigos de decoração e roupas.\n\nCada cela do presídio transformou-se em uma loja, proporcionando aos visitantes uma experiência única de compras. Para quem deseja ver como era uma cela original, uma cela vazia está preservada no raio leste. Outra dica é subir para o segundo andar do presídio pelo raio norte, onde há um ponto de observação que era utilizado para possíveis situações de emergência.",
+
+              "image": "./src/assets/images/cultura.png",
+              "distance": "./src/assets/distance/distancia15min.svg",
+              "duration": "1h30min",
+              "address": "Endereço: Praça Don Vital, s/nº, São José, Recife - PE"
+            },
+            {
+              "id": 6,
+              "title": "Passeio Noturno de Caramarã",
+              "hours": "19:00",
+              "description": "A Casa da Cultura ocupa o espaço de um antigo presídio recifense desativado há cerca de 40 anos, e hoje é um ponto turístico imperdível. Construído inicialmente com o princípio panóptico, o local passou por revitalização e agora abriga encantadoras lojinhas de artesanato e escritórios. É um ponto de parada fascinante para tirar fotos, apreciar a arquitetura e, acima de tudo, fazer algumas comprinhas. Você encontrará lojas que vendem uma variedade de produtos, como castanhas, tecidos, artigos de decoração e roupas.\n\nCada cela do presídio transformou-se em uma loja, proporcionando aos visitantes uma experiência única de compras. Para quem deseja ver como era uma cela original, uma cela vazia está preservada no raio leste. Outra dica é subir para o segundo andar do presídio pelo raio norte, onde há um ponto de observação que era utilizado para possíveis situações de emergência.",
+
+              "image": "./src/assets/images/barco.png",
+
+              "duration": "1h30min",
+              "address": "Endereço: Saída do Cais das Cinco Pontas, Recife - PE"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "quantity_days": 3,
+      "description": "Guia de Salvador para 03 dias",
+      "itinerary": [
+        {
+          "day": 1,
+          "tours": [
+            {
+              "id": 1,
+              "hours": "9:00",
+              "title": "Praça Marco Zero",
+              "description": "O Marco Zero, na Praça Rio Branco, é conhecido como local de fundação da cidade do Recife e também como ponto inicial de contagem das distâncias calculadas a partir da cidade. O lugar é um dos pontos mais importantes na capital Pernambucana, pois é também uma região de forte movimento durante o Carnaval. Aproveite sua visita para tirar uma foto com os dois marcos (o antigo e o novo), observar a vista para o Parque de Esculturas e os edifícios do Centro Cultural da Caixa e da Associação Comercial de Pernambuco. Se quiser fazer compras, vale a pena visitar o novo Mercado de Artesanato, que também fica no local.",
+              "image": "./src/assets/images/recife5-1-1.png",
+              "distance": "./src/assets/distance/distancia3min.svg",
+              "duration": "1h",
+              "address": "Endereço: Praça do Arsenal da Marinha, s/n, Recife Antigo, Recife - PE"
+            },
+            {
+              "id": 2,
+              "hours": "10:00",
+              "title": "Paço do Frevo",
+              "description": "O Paço do Frevo é um centro de referência de ações, projetos e atividades de documentação, transmissão, salvaguarda e valorização de uma das principais tradições culturais brasileiras, reconhecida como Patrimônio Imaterial da Humanidade pela Unesco: o frevo. Localizado no Bairro do Recife, o Paço tem curadoria assinada por Bia Lessa. Além de se valer de conteúdos e linguagens diversas para manter vivo o ritmo que embalou a formação da identidade cultural recifense, o equipamento promove oficinas e apresentações musicais regulares em quatro pavimentos de atividades, oferecendo aos visitantes a possibilidade de experimentar o Carnaval recifense durante todo o ano.",
+              "image": "./src/assets/images/frevo.png",
+              "distance": "./src/assets/distance/distancia2min.svg",
+              "duration": "1h",
+              "address": "Endereço: Praça do Arsenal da Marinha, s/n, Recife Antigo, Recife - PE"
+            },
+            {
+              "id": 3,
+              "title": "Rua do Bom Jesus",
+              "hours": "11:00",
+              "description": "A Rua do Bom Jesus, antiga Rua dos Judeus, é uma das mais importantes do Recife. Ela é pequena, cheia de edifícios antigos e coloridos, entre eles um casarão onde foi construída uma das primeiras sinagogas das Américas. Aos domingos acontece uma feira de artesanato que torna a rua ainda mais interessante. Não é um shopping grande e com muita variedade de lojas; possui uma praça de alimentação pequena, mas se destaca pelo ambiente intimista e aconchegante. É um shopping legal para fazer a pausa do almoço.",
+
+              "image": "./src/assets/images/jesus.png",
+              "distance": "./src/assets/distance/distancia5min.svg",
+              "duration": "3h30min",
+              "address": "Endereço: Rua Bom Jesus, Recife Antigo, Recife - PE"
+            },
+            {
+              "id": 4,
+              "hours": "15:00",
+              "title": "Embaixada dos Bonecos Gigantes",
+              "description": "Quem perdeu o Carnaval de Recife e Olinda e não conseguiu ver os bonecos gigantes em ação não precisa ficar triste! A Embaixada dos Bonecos Gigantes expõe os famosos bonecos criados para participar do Carnaval nas duas cidades, permitindo que os turistas tenham uma clara ideia da dimensão, da estrutura e do modo de criação dos personagens. Os bonecos pesados e bem trabalhados representam personalidades variadas, personagens de desenhos e figuras brasileiras que se destacam ao longo do ano. Adultos R$ 10,00 (Dez reais) | Criança (com até 12 anos) acompanhada por adulto pagante, entra sem pagar. Horário de Funcionamento: Segunda a Domingo das 08:00h às 18:00h. Abre nos feriados exceto: Carnaval (sábado até a terça), 25 de dezembro e 01 de janeiro.",
+              "image": "./src/assets/images/boneco.png",
+              "distance": "./src/assets/distance/distancia5min.svg",
+              "duration": "3h30min",
+              "address": "Endereço: Rua Bom Jesus, 183, Recife Antigo, Recife - PE"
+            },
+            {
+              "id": 5,
+              "title": "Rua da Moeda",
+              "hours": "16:00",
+              "description": "A Rua da Moeda é uma das mais conhecidas do Recife Antigo, popular entre os jovens por aglomerar vários bares legais na mesma região. Para quem quer fazer um happy hour ou encontrar os amigos, os bares da rua são boas opções. O lugar também recebe apresentações musicais, inclusive nas prévias do Carnaval. Que tal finalizar o dia com drinks e petiscos locais?",
+              "image": "./src/assets/images/moeda.png",
+              "duration": "1h30min",
+              "address": "Endereço: Rua da Moeda, Recife Antigo, Recife - PE"
+            }
+          ]
+        },
+        {
+          "day": 2,
+          "tours": [
+            {
+              "id": 1,
+              "title": "Paço Alfândega",
+              "hours": "9:00",
+              "description": "O Paço Alfândega já foi convento e alfândega do Recife. Hoje em dia, é um dos shoppings mais charmosos da cidade. Seu interior conserva uma mistura de estrutura rústica e moderna, evocando as origens do edifício do século XVIII. Um lugar incrível para desfrutar de um café da manhã tranquilo.",
+
+              "image": "./src/assets/images/alfandega.png",
+              "distance": "./src/assets/distance/distancia8min.svg",
+              "duration": "2h",
+              "address": "Endereço: Rua da Alfândega, 35 , Recife Antigo, Recife - PE"
+            },
+            {
+              "id": 2,
+              "title": "Capela Dourada",
+              "hours": "11:00",
+              "description": "A Capela Dourada destaca-se como uma das igrejas mais impressionantes do Recife, simbolizando toda a riqueza do período colonial no Brasil. Erguida entre os séculos XVII e XVIII, a capela está situada no interior do Convento e Igreja de Santo Antônio, que também abriga um Museu de Arte Sacra.\n\nA riqueza desta capela reside nos detalhes em ouro; em cada canto, o brilho amarelo envolve as madeiras talhadas nas paredes, criando uma atmosfera deslumbrante. Imagens e pinturas sacras complementam o esplendor visual da capela, que impressiona não apenas pela quantidade exuberante de ouro em suas paredes, mas também pelo trabalho artesanal minucioso.\n\nA entrada para visitação está disponível por R$ 3.",
+              "image": "./src/assets/images/capela.png",
+              "distance": "./src/assets/distance/distancia10min.svg",
+              "duration": "1h",
+              "address": "Endereço: R. Imperador Dom Pedro II, Santo Antônio, Recife - PE"
+            },
+            {
+              "id": 3,
+              "title": "Restaurante Leite",
+              "hours": "12:00",
+              "description": "Fundado em 1882, o Leite é o restaurante mais antigo do Recife, quiçá o mais antigo do Brasil. Seu ambiente é refinado, com luz baixa e um piano tocando músicas de qualidade como plano de fundo. É indicado especialmente para ocasiões especiais e refeições sofisticadas, embora o valor não seja muito acessível. Os garçons são extremamente atenciosos e vestem trajes brancos tradicionais há vários anos. A decoração passou por diversas mudanças ao longo dos anos, modernizando-se, mas mantendo a essência de servir pratos saborosos para uma clientela que busca uma refeição requintada.\n\nÉ um lugar para se visitar sem pressa, aproveitando a atmosfera única. O bacalhau e os camarões são escolhas acertadas, mas há também diversas outras opções.",
+
+              "image": "./src/assets/images/leite.png",
+              "distance": "./src/assets/distance/distancia10min.svg",
+              "duration": "2h",
+              "address": "Endereço: Praça Joaquim Nabuco, 147 , Santo Antônio, Recife - PE"
+            },
+            {
+              "id": 4,
+              "title": "Mercado de São José",
+              "hours": "14:00",
+              "description": "O Mercado São José está localizado em uma região popular e movimentada. Se você está em busca de artesanato ou produtos pernambucanos, este local é uma das melhores opções na cidade. No mercado, você encontrará uma diversidade de itens, desde peixes e mariscos frescos até artigos em couro, ímãs, tecidos rendados, enfeites em madeira e lembranças da cidade, todos provenientes do artesanato local.\n\nA vantagem de visitar o Mercado São José é que ele reúne uma ampla variedade de lojas, proporcionando ao turista a oportunidade de encontrar de tudo no mesmo lugar. Ao redor do mercado, há muitas lojas populares e camelôs. Quem procura produtos com preços mais acessíveis pode explorar essa região.",
+
+              "image": "./src/assets/images/jose.png",
+              "distance": "./src/assets/distance/distancia11min.svg",
+              "duration": "1h30min",
+              "address": "Endereço: Praça Don Vital, s/nº, São José, Recife - PE"
+            },
+            {
+              "id": 5,
+              "title": "Casa da Cultura",
+              "hours": "17:00",
+              "description": "A Casa da Cultura ocupa o espaço de um antigo presídio recifense desativado há cerca de 40 anos, e hoje é um ponto turístico imperdível. Construído inicialmente com o princípio panóptico, o local passou por revitalização e agora abriga encantadoras lojinhas de artesanato e escritórios. É um ponto de parada fascinante para tirar fotos, apreciar a arquitetura e, acima de tudo, fazer algumas comprinhas. Você encontrará lojas que vendem uma variedade de produtos, como castanhas, tecidos, artigos de decoração e roupas.\n\nCada cela do presídio transformou-se em uma loja, proporcionando aos visitantes uma experiência única de compras. Para quem deseja ver como era uma cela original, uma cela vazia está preservada no raio leste. Outra dica é subir para o segundo andar do presídio pelo raio norte, onde há um ponto de observação que era utilizado para possíveis situações de emergência.",
+
+              "image": "./src/assets/images/cultura.png",
+              "distance": "./src/assets/distance/distancia15min.svg",
+              "duration": "1h30min",
+              "address": "Endereço: Praça Don Vital, s/nº, São José, Recife - PE"
+            },
+            {
+              "id": 6,
+              "title": "Passeio Noturno de Caramarã",
+              "hours": "19:00",
+              "description": "A Casa da Cultura ocupa o espaço de um antigo presídio recifense desativado há cerca de 40 anos, e hoje é um ponto turístico imperdível. Construído inicialmente com o princípio panóptico, o local passou por revitalização e agora abriga encantadoras lojinhas de artesanato e escritórios. É um ponto de parada fascinante para tirar fotos, apreciar a arquitetura e, acima de tudo, fazer algumas comprinhas. Você encontrará lojas que vendem uma variedade de produtos, como castanhas, tecidos, artigos de decoração e roupas.\n\nCada cela do presídio transformou-se em uma loja, proporcionando aos visitantes uma experiência única de compras. Para quem deseja ver como era uma cela original, uma cela vazia está preservada no raio leste. Outra dica é subir para o segundo andar do presídio pelo raio norte, onde há um ponto de observação que era utilizado para possíveis situações de emergência.",
+
+              "image": "./src/assets/images/barco.png",
+
+              "duration": "1h30min",
+              "address": "Endereço: Saída do Cais das Cinco Pontas, Recife - PE"
+            }
+          ]
+        },
+        {
+          "day": 3,
+          "tours": [
+            {
+              "id": 1,
+              "title": "Paço Alfândega",
+              "hours": "9:00",
+              "description": "O Paço Alfândega já foi convento e alfândega do Recife. Hoje em dia, é um dos shoppings mais charmosos da cidade. Seu interior conserva uma mistura de estrutura rústica e moderna, evocando as origens do edifício do século XVIII. Um lugar incrível para desfrutar de um café da manhã tranquilo.",
+
+              "image": "./src/assets/images/alfandega.png",
+              "distance": "./src/assets/distance/distancia8min.svg",
+              "duration": "2h",
+              "address": "Endereço: Rua da Alfândega, 35 , Recife Antigo, Recife - PE"
+            },
+            {
+              "id": 2,
+              "title": "Capela Dourada",
+              "hours": "11:00",
+              "description": "A Capela Dourada destaca-se como uma das igrejas mais impressionantes do Recife, simbolizando toda a riqueza do período colonial no Brasil. Erguida entre os séculos XVII e XVIII, a capela está situada no interior do Convento e Igreja de Santo Antônio, que também abriga um Museu de Arte Sacra.\n\nA riqueza desta capela reside nos detalhes em ouro; em cada canto, o brilho amarelo envolve as madeiras talhadas nas paredes, criando uma atmosfera deslumbrante. Imagens e pinturas sacras complementam o esplendor visual da capela, que impressiona não apenas pela quantidade exuberante de ouro em suas paredes, mas também pelo trabalho artesanal minucioso.\n\nA entrada para visitação está disponível por R$ 3.",
+              "image": "./src/assets/images/capela.png",
+              "distance": "./src/assets/distance/distancia10min.svg",
+              "duration": "1h",
+              "address": "Endereço: R. Imperador Dom Pedro II, Santo Antônio, Recife - PE"
+            },
+            {
+              "id": 3,
+              "title": "Restaurante Leite",
+              "hours": "12:00",
+              "description": "Fundado em 1882, o Leite é o restaurante mais antigo do Recife, quiçá o mais antigo do Brasil. Seu ambiente é refinado, com luz baixa e um piano tocando músicas de qualidade como plano de fundo. É indicado especialmente para ocasiões especiais e refeições sofisticadas, embora o valor não seja muito acessível. Os garçons são extremamente atenciosos e vestem trajes brancos tradicionais há vários anos. A decoração passou por diversas mudanças ao longo dos anos, modernizando-se, mas mantendo a essência de servir pratos saborosos para uma clientela que busca uma refeição requintada.\n\nÉ um lugar para se visitar sem pressa, aproveitando a atmosfera única. O bacalhau e os camarões são escolhas acertadas, mas há também diversas outras opções.",
+
+              "image": "./src/assets/images/leite.png",
+              "distance": "./src/assets/distance/distancia10min.svg",
+              "duration": "2h",
+              "address": "Endereço: Praça Joaquim Nabuco, 147 , Santo Antônio, Recife - PE"
+            },
+            {
+              "id": 4,
+              "title": "Mercado de São José",
+              "hours": "14:00",
+              "description": "O Mercado São José está localizado em uma região popular e movimentada. Se você está em busca de artesanato ou produtos pernambucanos, este local é uma das melhores opções na cidade. No mercado, você encontrará uma diversidade de itens, desde peixes e mariscos frescos até artigos em couro, ímãs, tecidos rendados, enfeites em madeira e lembranças da cidade, todos provenientes do artesanato local.\n\nA vantagem de visitar o Mercado São José é que ele reúne uma ampla variedade de lojas, proporcionando ao turista a oportunidade de encontrar de tudo no mesmo lugar. Ao redor do mercado, há muitas lojas populares e camelôs. Quem procura produtos com preços mais acessíveis pode explorar essa região.",
+
+              "image": "./src/assets/images/jose.png",
+              "distance": "./src/assets/distance/distancia11min.svg",
+              "duration": "1h30min",
+              "address": "Endereço: Praça Don Vital, s/nº, São José, Recife - PE"
+            },
+            {
+              "id": 5,
+              "title": "Casa da Cultura",
+              "hours": "17:00",
+              "description": "A Casa da Cultura ocupa o espaço de um antigo presídio recifense desativado há cerca de 40 anos, e hoje é um ponto turístico imperdível. Construído inicialmente com o princípio panóptico, o local passou por revitalização e agora abriga encantadoras lojinhas de artesanato e escritórios. É um ponto de parada fascinante para tirar fotos, apreciar a arquitetura e, acima de tudo, fazer algumas comprinhas. Você encontrará lojas que vendem uma variedade de produtos, como castanhas, tecidos, artigos de decoração e roupas.\n\nCada cela do presídio transformou-se em uma loja, proporcionando aos visitantes uma experiência única de compras. Para quem deseja ver como era uma cela original, uma cela vazia está preservada no raio leste. Outra dica é subir para o segundo andar do presídio pelo raio norte, onde há um ponto de observação que era utilizado para possíveis situações de emergência.",
+
+              "image": "./src/assets/images/cultura.png",
+              "distance": "./src/assets/distance/distancia15min.svg",
+              "duration": "1h30min",
+              "address": "Endereço: Praça Don Vital, s/nº, São José, Recife - PE"
+            },
+            {
+              "id": 6,
+              "title": "Passeio Noturno de Caramarã",
+              "hours": "19:00",
+              "description": "A Casa da Cultura ocupa o espaço de um antigo presídio recifense desativado há cerca de 40 anos, e hoje é um ponto turístico imperdível. Construído inicialmente com o princípio panóptico, o local passou por revitalização e agora abriga encantadoras lojinhas de artesanato e escritórios. É um ponto de parada fascinante para tirar fotos, apreciar a arquitetura e, acima de tudo, fazer algumas comprinhas. Você encontrará lojas que vendem uma variedade de produtos, como castanhas, tecidos, artigos de decoração e roupas.\n\nCada cela do presídio transformou-se em uma loja, proporcionando aos visitantes uma experiência única de compras. Para quem deseja ver como era uma cela original, uma cela vazia está preservada no raio leste. Outra dica é subir para o segundo andar do presídio pelo raio norte, onde há um ponto de observação que era utilizado para possíveis situações de emergência.",
+
+              "image": "./src/assets/images/barco.png",
+
+              "duration": "1h30min",
+              "address": "Endereço: Saída do Cais das Cinco Pontas, Recife - PE"
             }
           ]
         }

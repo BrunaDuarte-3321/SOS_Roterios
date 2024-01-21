@@ -1,5 +1,5 @@
 import { Download } from 'phosphor-react'
-import { useEffect } from 'react'
+import { useEffect, useState } from 'react'
 
 import { travelStore } from '../../store/travelStore'
 
@@ -8,10 +8,17 @@ import { TravelRouteNavbar } from './components/TravelRouteNavbar'
 import { TravelRouteContainer, TravelRouteContent } from './styles'
 
 export function TravelRoute() {
+  const [currentDay, setCurrentDay] = useState(1)
+
+  const handleDay = (day: number) => {
+    setCurrentDay(day)
+  }
+
   const { teste, guide } = travelStore((store) => ({
     teste: store.getItineraries,
     guide: store.itinerary,
   }))
+
   useEffect(() => {
     teste()
   }, [])
@@ -26,8 +33,8 @@ export function TravelRoute() {
               <Download />
             </button>
           </header>
-          <TravelRouteNavbar itinerary={itinerary} />
-          <TravelGuide itinerary={itinerary} />
+          <TravelRouteNavbar itinerary={itinerary} handleDay={handleDay} />
+          <TravelGuide itinerary={itinerary} currentDay={currentDay} />
         </TravelRouteContent>
       ))}
     </TravelRouteContainer>

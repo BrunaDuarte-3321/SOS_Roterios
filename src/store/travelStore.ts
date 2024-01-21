@@ -44,8 +44,6 @@ export const travelStore = create<TravelStore>((set, get) => ({
           `itineraries?id=${id}&quantity_days=${quantity_days}`,
         )
 
-        console.log(response.data, 'response data')
-
         set({
           itinerary: response.data,
         })

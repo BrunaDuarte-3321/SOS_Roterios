@@ -13,51 +13,55 @@ import {
 
 interface IProps {
   itinerary: ITesteRotas[]
+  currentDay: number
 }
-export function TravelGuide({ itinerary }: IProps) {
+
+export function TravelGuide({ itinerary, currentDay }: IProps) {
   return (
     <>
       {itinerary.map(({ day, tours }) => (
         <TravelGuideContainer key={day}>
-          <h1>DIA {day} </h1>
+          {currentDay === day && (
+            <>
+              <h1>DIA {day}</h1>
 
-          {tours.map(
-            ({
-              description,
-              id,
-              image,
-              title,
-              hours,
-              distance,
-              address,
-              duration,
-            }) => (
-              <>
-                <TravelGuideContent key={id}>
-                  <TravelGuideImage>
-                    <h3> {title}</h3>
-                    <img src={image} alt="" />
-                  </TravelGuideImage>
-                  <TravelGuideContentInfo>
-                    <TravelGuideDetails>
-                      <span>
-                        <Timer /> {hours}
-                      </span>
-                      <div>
-                        <p>{description} </p>
-                      </div>
-                      <TravelGuideDetailsTime>
-                        <span>Duração: {duration}</span>
-                        <span>{address}</span>
-                      </TravelGuideDetailsTime>
-                    </TravelGuideDetails>
-                  </TravelGuideContentInfo>
-                </TravelGuideContent>
-                <TravelGuideDetailsTime>
-                  <img src={distance} alt="" />
-                </TravelGuideDetailsTime>
-              </>
-            ),
+              {tours.map(
+                ({
+                  description,
+                  id,
+                  image,
+                  title,
+                  hours,
+                  distance,
+                  address,
+                  duration,
+                }) => (
+                  <TravelGuideContent key={id}>
+                    <TravelGuideImage>
+                      <h3>{title}</h3>
+                      <img src={image} alt="" />
+                    </TravelGuideImage>
+                    <TravelGuideContentInfo>
+                      <TravelGuideDetails>
+                        <span>
+                          <Timer /> {hours}
+                        </span>
+                        <div>
+                          <p>{description}</p>
+                        </div>
+                        <TravelGuideDetailsTime>
+                          <span>Duração: {duration}</span>
+                          <span>{address}</span>
+                        </TravelGuideDetailsTime>
+                      </TravelGuideDetails>
+                    </TravelGuideContentInfo>
+                    <TravelGuideDetailsTime>
+                      <img src={distance} alt="" />
+                    </TravelGuideDetailsTime>
+                  </TravelGuideContent>
+                ),
+              )}
+            </>
           )}
         </TravelGuideContainer>
       ))}
