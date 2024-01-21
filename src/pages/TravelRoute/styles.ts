@@ -9,6 +9,8 @@ export const TravelRouteContainer = styled.main`
 
 export const TravelRouteContent = styled.section`
   width: 100%;
+  display: flex;
+  flex-direction: column;
 
   header {
     display: flex;

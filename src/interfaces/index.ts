@@ -47,3 +47,30 @@ export interface IItinerary {
   infoCard: ICard[]
   link: string
 }
+
+export interface ITravelGuide {
+  id: number
+  title: string
+  hours: string
+  description: string
+  image: string
+  distance?: string
+  duration: string
+  address: string
+}
+export interface IGuide {
+  day: number
+  itinerary: ITravelGuide[]
+}
+
+export interface ITesteRotas {
+  day: number
+  tours: ITravelGuide[]
+}
+
+export interface ITesteitinerary {
+  id: number
+  quantity_days: number
+  description: string
+  itinerary: ITesteRotas[]
+}

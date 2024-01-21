@@ -1,15 +1,17 @@
 import { Link } from 'react-router-dom'
 
+import { ITesteRotas } from '../../../../interfaces'
+
 import { TravelRouteNavbarContainer } from './styles'
 
-export function TravelRouteNavbar() {
-  const lit = [1, 2, 3]
+interface ITravelRoutenavbar {
+  itinerary: ITesteRotas[]
+}
+export function TravelRouteNavbar({ itinerary }: ITravelRoutenavbar) {
   return (
     <TravelRouteNavbarContainer>
-      {lit.map((item) => (
-        <Link key={item} to="/">
-          {item}
-        </Link>
+      {itinerary.map(({ day }) => (
+        <Link to="/">{day}</Link>
       ))}
     </TravelRouteNavbarContainer>
   )

@@ -5,6 +5,10 @@ export const TravelRouteNavbarContainer = styled.nav`
   gap: 0.78rem;
   margin-top: 1.88rem;
 
+  flex-direction: row;
+
+  background-color: red;
+
   a {
     color: ${({ theme }) => theme.color.white};
     text-decoration: none;

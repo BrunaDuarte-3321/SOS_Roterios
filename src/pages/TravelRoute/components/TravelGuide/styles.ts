@@ -14,7 +14,6 @@ export const TravelGuideContent = styled.div`
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 6.5rem;
-  margin-bottom: 7.5rem;
 `
 
 export const TravelGuideImage = styled.div`
@@ -57,4 +56,7 @@ export const TravelGuideDetails = styled.div`
     gap: 0.5rem;
   }
 `
-export const TravelGuideDetailsTime = styled.div``
+export const TravelGuideDetailsTime = styled.div`
+  margin-top: 1.31rem;
+  margin-bottom: 1rem;
+`

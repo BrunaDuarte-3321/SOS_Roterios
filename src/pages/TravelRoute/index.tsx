@@ -8,25 +8,28 @@ import { TravelRouteNavbar } from './components/TravelRouteNavbar'
 import { TravelRouteContainer, TravelRouteContent } from './styles'
 
 export function TravelRoute() {
-  const { teste } = travelStore((store) => ({
+  const { teste, guide } = travelStore((store) => ({
     teste: store.getItineraries,
+    guide: store.itinerary,
   }))
   useEffect(() => {
     teste()
   }, [])
   return (
     <TravelRouteContainer>
-      <TravelRouteContent className="container">
-        <header>
-          <h2>{}</h2>
-          <button type="submit">
-            Roteiro completo
-            <Download />
-          </button>
-        </header>
-        <TravelRouteNavbar />
-        <TravelGuide />
-      </TravelRouteContent>
+      {guide.map(({ id, description, itinerary }) => (
+        <TravelRouteContent className="container" key={id}>
+          <header>
+            <h2>{description}</h2>
+            <button type="submit">
+              Roteiro completo
+              <Download />
+            </button>
+          </header>
+          <TravelRouteNavbar itinerary={itinerary} />
+          <TravelGuide itinerary={itinerary} />
+        </TravelRouteContent>
+      ))}
     </TravelRouteContainer>
   )
 }

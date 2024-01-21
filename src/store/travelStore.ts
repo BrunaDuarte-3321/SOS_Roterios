@@ -9,6 +9,7 @@ export const travelStore = create<TravelStore>((set, get) => ({
   travelGuide: [],
   teste: null,
   infoCard: undefined,
+  itinerary: [],
   getCities: async () => {
     const showTravelGuide = await api.get('/cities').then((data) => data)
 
@@ -43,7 +44,11 @@ export const travelStore = create<TravelStore>((set, get) => ({
           `itineraries?id=${id}&quantity_days=${quantity_days}`,
         )
 
-        console.log(response.data)
+        console.log(response.data, 'response data')
+
+        set({
+          itinerary: response.data,
+        })
       }
     } catch (error) {
       console.error('Erro ao obter itinerários:', error)
