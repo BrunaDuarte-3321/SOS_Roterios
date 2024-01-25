@@ -41,6 +41,7 @@ export const CardTravel = styled.div`
 
   a {
     text-decoration: none;
+    cursor: pointer;
   }
 
   @media (max-width: 800px) {

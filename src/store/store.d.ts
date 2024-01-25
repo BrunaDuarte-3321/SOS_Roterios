@@ -1,8 +1,9 @@
-import { ICard, ITeste } from '../interfaces'
+import { ICard, IItinerary, ITravel } from '../interfaces'
 
 export type TravelStore = {
-  travelGuide: ITeste[]
+  travelGuide: ITravel[]
   infoCard: ICard | undefined
+  itinerary: IItinerary[] | []
 
   getCities: () => void
   getItineraries: () => void

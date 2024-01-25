@@ -5,7 +5,9 @@ export const TravelRouteNavbarContainer = styled.nav`
   gap: 0.78rem;
   margin-top: 1.88rem;
 
-  a {
+  flex-direction: row;
+
+  button {
     color: ${({ theme }) => theme.color.white};
     text-decoration: none;
     font-weight: 700;
@@ -16,5 +18,7 @@ export const TravelRouteNavbarContainer = styled.nav`
     background: ${({ theme }) => theme.color['primary-green-dark']};
     width: 8.5rem;
     height: 2.75rem;
+    border: none;
+    cursor: pointer;
   }
 `

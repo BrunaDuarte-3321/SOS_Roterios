@@ -1,10 +1,10 @@
-import { ITeste } from '../../../../interfaces'
+import { ITravel } from '../../../../interfaces'
 
 import { Itinerary } from './Itinerary'
 import { TravelItinerariesContainer } from './styles'
 
 interface ITravelItineraries {
-  travel: ITeste
+  travel: ITravel
 }
 export function TravelItineraries({ travel }: ITravelItineraries) {
   return (
