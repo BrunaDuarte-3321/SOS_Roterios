@@ -18,5 +18,7 @@ export const TravelRouteNavbarContainer = styled.nav`
     background: ${({ theme }) => theme.color['primary-green-dark']};
     width: 8.5rem;
     height: 2.75rem;
+    border: none;
+    cursor: pointer;
   }
 `

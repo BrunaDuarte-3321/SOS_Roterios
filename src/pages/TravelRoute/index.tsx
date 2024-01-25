@@ -14,13 +14,13 @@ export function TravelRoute() {
     setCurrentDay(day)
   }
 
-  const { teste, guide } = travelStore((store) => ({
-    teste: store.getItineraries,
+  const { getItineraries, guide } = travelStore((store) => ({
+    getItineraries: store.getItineraries,
     guide: store.itinerary,
   }))
 
   useEffect(() => {
-    teste()
+    getItineraries()
   }, [])
   return (
     <TravelRouteContainer>

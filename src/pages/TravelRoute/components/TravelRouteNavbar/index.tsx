@@ -1,9 +1,9 @@
-import { ITesteRotas } from '../../../../interfaces'
+import { IRotas } from '../../../../interfaces'
 
 import { TravelRouteNavbarContainer } from './styles'
 
 interface ITravelRouteNavbar {
-  itinerary: ITesteRotas[]
+  itinerary: IRotas[]
   handleDay: (day: number) => void
 }
 export function TravelRouteNavbar({

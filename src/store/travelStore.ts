@@ -7,7 +7,6 @@ import { TravelStore } from './store'
 
 export const travelStore = create<TravelStore>((set, get) => ({
   travelGuide: [],
-  teste: null,
   infoCard: undefined,
   itinerary: [],
   getCities: async () => {

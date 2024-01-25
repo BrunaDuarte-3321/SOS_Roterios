@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom'
 
-import { IItinerary } from '../../../../interfaces'
+import { IItineraries } from '../../../../interfaces'
 import { travelStore } from '../../../../store/travelStore'
 
 import {
@@ -12,7 +12,7 @@ import {
   ItineraryHeader,
 } from './styles'
 
-export function Itinerary({ city, infoCard, link }: IItinerary) {
+export function Itinerary({ city, infoCard, link }: IItineraries) {
   const { directionCard } = travelStore((store) => ({
     directionCard: store.directionCard,
   }))

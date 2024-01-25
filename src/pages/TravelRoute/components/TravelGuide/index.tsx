@@ -1,6 +1,6 @@
 import { Timer } from 'phosphor-react'
 
-import { ITesteRotas } from '../../../../interfaces'
+import { IRotas } from '../../../../interfaces'
 
 import {
   TravelGuideContainer,
@@ -12,7 +12,7 @@ import {
 } from './styles'
 
 interface IProps {
-  itinerary: ITesteRotas[]
+  itinerary: IRotas[]
   currentDay: number
 }
 

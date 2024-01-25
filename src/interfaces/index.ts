@@ -36,13 +36,13 @@ export interface ICard {
   image: string
 }
 
-export interface ITeste {
+export interface ITravel {
   id: number
   name: string
   infoCard: ICard[]
 }
 
-export interface IItinerary {
+export interface IItineraries {
   city: string
   infoCard: ICard[]
   link: string
@@ -63,14 +63,14 @@ export interface IGuide {
   itinerary: ITravelGuide[]
 }
 
-export interface ITesteRotas {
+export interface IRotas {
   day: number
   tours: ITravelGuide[]
 }
 
-export interface ITesteitinerary {
+export interface IItinerary {
   id: number
   quantity_days: number
   description: string
-  itinerary: ITesteRotas[]
+  itinerary: IRotas[]
 }

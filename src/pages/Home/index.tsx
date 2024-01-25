@@ -15,7 +15,6 @@ export function Home() {
     getCities()
   }, [])
 
-  console.log(travel, 'travel')
   return (
     <HomeContainer>
       {travel!.map((item) => (
