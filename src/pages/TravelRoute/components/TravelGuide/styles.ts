@@ -14,6 +14,10 @@ export const TravelGuideContent = styled.div`
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 6.5rem;
+
+  @media (max-width: 750px) {
+    grid-template-columns: 1fr;
+  }
 `
 
 export const TravelGuideImage = styled.div`

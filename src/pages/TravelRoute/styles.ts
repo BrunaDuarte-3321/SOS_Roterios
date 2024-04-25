@@ -33,5 +33,9 @@ export const TravelRouteContent = styled.section`
 
       cursor: pointer;
     }
+    @media (max-width: 600px) {
+      justify-content: center;
+      flex-direction: column;
+    }
   }
 `
